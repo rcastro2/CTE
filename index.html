@@ -1,0 +1,306 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>CTE Computer Programming @ Bayside High School</title>
+
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <link type="text/css" href="css/dark-hive/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script> 
+		<link href="css/ctecs.css" rel="stylesheet" />
+		<script src="js/ctecs.js"></script>
+        <link href="css/liteaccordion.css" rel="stylesheet" />
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/liteaccordion.jquery.js"></script>
+
+
+    </head>
+<body style="background-color:#222">
+		 <script type="text/javascript">
+			$(document).ready(function(){
+				$("#menu").html(myMenu(1));
+			})
+            $(function(){
+                
+                $( "#dialog" ).dialog({
+                    autoOpen: false,
+                    draggable: false,
+                    modal: true,
+                    close: function(event, ui) { }
+                });        
+            });
+            function loadwindow(choice, w, h, t) {
+                var messages = [$('#CourseSequence').html(),$('#SalarySummary').html(),$('#LaborStats').html()];	
+                $('#dialog').html(messages[choice]); $('#dialog').dialog("option", "width", w); $('#dialog').dialog("option", "height", h);
+                $('#dialog').dialog('option', 'title', t); $('#dialog').dialog('open'); 
+            }	       
+        </script>
+	<center>
+	<div style="width:1000px;">
+	<div style="border-top-left-radius: 20px;border-top-right-radius: 20px;margin-left:10px;width:970px;border:thick #000 outset;background-image:url(images/zertxtr3.gif);float:left;text-align:left;">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
+
+	<div id="tabs" style="border:#000">
+		<ul id="menu">
+			
+		</ul>
+        <div id="three">
+            <ol>
+                <li data-slide-name="slide-one">
+                    <h2><span>Overview</span></h2>
+                    <div>
+						  Career & Technical Education (CTE) in Computer Programming at Bayside High School provides a rigorous academic course of study which prepares students for post-secondary education and careers in computer programming.
+						  <div style="padding:20px">
+						  &bull;&nbsp;&nbsp; Students develop a strong foundation in programming concepts and gain practical experience programming in several languages.
+						  <br/>&bull;&nbsp;&nbsp; Students acquire the confidence to use their  existing knowledge and apply it to learning advance programming concepts, new  programming languages or new technologies and techniques.
+						  <br/>&bull;&nbsp;&nbsp; Students earn college credits and are motivated  to continue their education in computer programming.
+						  <br/>&bull;&nbsp;&nbsp; Students observe first hand careers in computer  programming and participate in work based experiences.
+						  </div>
+                    </div>
+                </li>
+                <li data-slide-name="slide-two">
+                    <h2><span>Programming</span></h2>
+                    <div>
+						  Throughout all four years emphasis is placed on developing computational thinking skills and learning programming concepts.
+						  <div style="padding:20px">
+						  &bull;&nbsp;&nbsp; Students are exposed to problems which incorporate various disciplines such as mathematics, physics, business, language, music and art.
+						  <br/>&bull;&nbsp;&nbsp; Students develop stand-alone applications, process data from external sources, design web sites using code as well as GUI editors, create basic games, generate code to control Lego MindstStorm NXT, and produce apps for Android Smartphones.
+						  <br/>&bull;&nbsp;&nbsp; Students explore programming concepts using a myriad of different languages and technologies such as Python, MIT AppIventor, C#, RobotC, Java, Andriod SDK, HTML, CSS, JavaScript / JQuery and ASP.NET.
+						  </div>
+						  <b>GOAL:</b><i> Recognize that programming is everywhere.  Algorithm is key!</i>
+                    </div>
+                </li>
+                <li data-slide-name="slide-three">
+                    <h2><span>Academics</span></h2>
+                    <div>
+                        Course of studies are aligned for each student to receive an Advanced Regents Diploma as well as receive college credits through either Advanced Placement or college-accredited courses.  Our curriculums are routinely reviewed with the help of post-secondary education and industry partners.
+						  <br />
+						  <br/>Students earns 47 credits:
+						  <table width="100%" border="0">
+						  <tr>
+						  <td width="40%">
+						  <div style="padding:20px">
+						  &bull;&nbsp;&nbsp; 8 - English 
+						  <br/>&bull;&nbsp;&nbsp; 8 - Social Studies
+						  <br/>&bull;&nbsp;&nbsp; 8 - Mathematics
+						  <br/>&bull;&nbsp;&nbsp; 6 - Science
+						  </div>
+						  </td>
+						  <td>
+						  <div style="padding:20px">
+						  &bull;&nbsp;&nbsp; 8 - Computer Science <span style="font-size:8pt">(Additional credits available)</span>
+						  <br/>&bull;&nbsp;&nbsp; 2 - Arts
+						  <br/>&bull;&nbsp;&nbsp; 2 - Language
+						  <br/>&bull;&nbsp;&nbsp; 5 - Physical Education
+						  </div>
+						  </td>
+						  </tr>
+						  </table><a style='cursor:pointer;color:blue;' onclick="loadwindow(0,950,300,'Course Sequence');">View Course Sequence</a>
+						  
+                    </div>
+                </li>
+                <li data-slide-name="slide-four">
+                    <h2><span>Preparation</span></h2>
+                    <div>
+                        With current advancement in technologies, computer science related occupations are on the rise, <a style='cursor:pointer;color:blue;' onclick="loadwindow(2,410,430,'Labor Statistics');">Bureau of Labor Statistics</a>.  
+						  Competitive salaries ,<a style='cursor:pointer;color:blue;' onclick="loadwindow(1,410,480,'Salary Survey');">National Association of Colleges and Employers</a>, in conjunction with the increase demand for computer science professional make this an 
+						  opportune time to entry the industry.
+						  <br /><br />
+						  Providing revelance through practical application is the key to motivating and preparing students for futures in computer programming. Below are just some of the ways we extend education beyond the classroom.
+						  <table width="100%" border="0">
+						  <tr>
+						  <td width="50%">
+						  <div style="padding:20px">
+						  &bull;&nbsp;&nbsp; Guest speakers
+						  <br/>&bull;&nbsp;&nbsp; College visits
+						  <br/>&bull;&nbsp;&nbsp; Conferences for both students and staff
+						  <br/>&bull;&nbsp;&nbsp; Continuous professional development
+						  </div>
+						  </td>
+						  <td>
+						  <div style="padding:20px">
+						  &bull;&nbsp;&nbsp; Certification exams
+						  <br/>&bull;&nbsp;&nbsp; Internships
+						  <br/>&bull;&nbsp;&nbsp; Competitions
+						  <br/>&bull;&nbsp;&nbsp; Community outreach
+						  </div>
+						  </td>
+						  </tr>
+						  </table>
+                    </div>
+                </li>
+            </ol>
+            <noscript>
+                <p>Please enable JavaScript to get the full experience.</p>
+            </noscript>
+        </div>
+	</div>
+	
+	<div id="dialog" title="Download complete"></div>
+	<div id="SalarySummary" style="visibility:hidden;position:absolute;top:0;left:-1000">
+According to the <b>National Association of Colleges and Employers</b> (NACE), computer science related industries are competitively compensated for their uniue skills.<br /><br/><table cellspacing='0' cellpadding='0' bgcolor='white' border='1' style='color:black'>
+  <col width='180'>
+
+  <col width='100' >
+
+  <col width='100'>
+
+
+
+    <caption style="color:white">Median Salaries By Discipline</caption>
+
+  
+
+  <tr style='background-color:gray;color:white;font-weight:bold;'>
+
+    <td>DISCIPLINE</td>
+
+    <td><center>2013</center></td>
+
+    <td><center>2012</center></td>
+
+  </tr>
+
+  <tr>
+
+    <td>Business</td>
+
+    <td align='right'>$55,635 </td>
+
+    <td align='right'>$51,541 </td>
+
+  </tr>
+
+  <tr>
+
+    <td>Communications</td>
+
+    <td align='right'>$43,835 </td>
+
+    <td align='right'>$42,286 </td>
+
+  </tr>
+
+  <tr style='background-color:#FAF8CC;'>
+
+    <td ><b style='color:green'>&#10003 &nbsp;</b>Computer    Science</td>
+
+    <td align='right'>$58,547 </td>
+
+    <td align='right'>$60,038 </td>
+
+  </tr>
+
+  <tr>
+
+    <td>Education</td>
+
+    <td align='right'>$40,337 </td>
+
+    <td align='right'>$39,080 </td>
+
+  </tr>
+
+  <tr style='background-color:#FAF8CC;'>
+
+    <td><b style='color:green'>&#10003 &nbsp;</b>Engineering</td>
+
+    <td align='right'>$62,062 </td>
+
+    <td align='right'>$60,639 </td>
+
+  </tr>
+
+  <tr>
+
+    <td>Humanities    &amp; Social Sciences</td>
+
+    <td align='right'>$37,791 </td>
+
+    <td align='right'>$36,824 </td>
+
+  </tr>
+
+  <tr>
+
+    <td>Math &amp;    Sciences</td>
+
+    <td align='right'>$42,731 </td>
+
+    <td align='right'>$42,355 </td>
+
+  </tr>
+
+  <tr>
+
+    <td>Overall</td>
+
+    <td align='right'>$45,327 </td>
+
+    <td align='right'>$44,259 </td>
+
+  </tr>
+
+  <tr>
+
+    <td colspan='3' style='text-align:right;font-size:10pt;'><a style="color:#00F;" target='_blank' href='http://www.naceweb.org/uploadedFiles/Content/static-assets/downloads/executive-summary/2013-september-salary-survey-executive-summary.pdf'>September 2013 Salary Survey - Executive Summary</a></td>
+
+  </tr>
+
+</table><br/>
+&#9734; One factor contributing to the decrease in <b>Computer Science</b> salaries is the type of positions that were reported for these graduates compared to those of the previous year.<br/><br/>&#9733; Students majoring specifically in <b>Computer Science</b> saw an increase of 3.1 percent, bringing their average starting salary to <b>$64,100</b>.
+</div>
+<div id="CourseSequence" style="visibility:hidden;position:absolute;top:0;left:-1000">
+<img src=images/courses.png /><br/><b style='font-size:16px'>&bull;&nbsp;&nbsp;</b>&nbsp;Potential College Credit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:#f00'><b style='font-size:16px'>&bull;&nbsp;&nbsp;</b></span>&nbsp;Potential Advanced Placement Course
+</div>
+<div id="LaborStats" style="visibility:hidden;position:absolute;top:0;left:-1000">
+<b>Bureau of Labor Statistics</b> (BLS) states that employment of software developers is projected to grow over 30 percent from 2010 to 2020, much faster than the average for all occupations.<br/><br/>
+
+<table cellspacing='0' bgcolor='white' border='0' style='color:black;border: 2px solid #999999;padding-right:5px;padding-left:5px'>
+
+<caption style="color:#FFF">Percent change in employment, projected 2010-20</caption>
+
+<tr>
+
+<td colspan="2" height="5px">&nbsp;</td></tr>
+
+<tr>
+
+<td width="200px" height="40px"> Software Developers,<br/>Systems Software</td><td><div align="right" style="width:160px;background-color:#3333FF;color:white">32%</div></td></tr>
+
+<tr>
+
+<td width="200" height="40px">Database Administrators</td><td><div align="right" style="width:155px;background-color:#3333FF;color:white">31%</div></td></tr>
+
+<tr>
+
+<td width="200" height="40px">Information Security Analysts, Web Developers</td><td><div align="right" style="width:110px;background-color:#3333FF;color:white">22%</div></td></tr>
+
+<tr>
+
+<td width="200" height="40px">Computer Occupations</td><td><div align="right" style="width:110px;background-color:#3333FF;color:white">22%</div></td></tr>
+
+<tr>
+
+<td colspan="2" height="5px"><hr></td></tr>
+
+<tr>
+
+<td width="200" height="20px">Total, All Occupations</td><td><div align="right" style="width:70px;background-color:#990000;color:white">14%</div></td></tr>
+
+<tr><td colspan="2" style="text-align:right;font-size:9pt"><hr/><a style="color:#00F;" target="_blank" href="http://www.bls.gov/ooh/computer-and-information-technology/">Source: U.S. Bureau of Labor Statistics, Employment</a></td></tr>
+
+</table>
+
+</div>
+	
+	
+	
+        <script>
+            (function($, d) {
+                $('#three').liteAccordion({ theme : 'dark', rounded : true, enumerateSlides : false, firstSlide : 1, easing: 'easeInOutQuart' });
+            })(jQuery, document);
+
+        </script>
+
+    </body>
+</html>

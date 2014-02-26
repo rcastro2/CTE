@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+        <title>CTE Computer Programming @ Bayside High School</title>
+        <style>
+			#resourcesDiv div{margin:5px; padding:5px; background-color:white; width:90%; height:200px; border-radius:10px; display:inline-table;}
+			#resourcesDiv desc{display:table;padding:10px;text-align:left;}
+			#resourcesDiv .logo{float:left; border-radius:10px;box-shadow:10px 10px 10px black;margin:10px}
+			.highlighted {border-radius:10px;box-shadow:10px 10px 10px #FF8000 !important;}
+			#resourcesDiv .flink{height:20px;}
+        </style>
+
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <link type="text/css" href="css/dark-hive/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script> 
+		<link href="css/ctecs.css" rel="stylesheet" />
+		<script src="js/ctecs.js"></script>
+    </head>
+<body style="background-color:#222">
+<script type="text/javascript">
+			$(document).ready(function(){
+				$("#menu").html(myMenu(4));
+				$.getJSON("resources.js",
+				
+				
+				function(result){
+					var build = new Array("");
+					var tmp;
+					for(pos = 0; pos < result.resources.length; pos++){
+						tmp = result.resources[pos];
+						build.push("<div><a href='"+tmp.link+"' target='_blank'><img src='images/resources/"+tmp.image+"' class='logo'/></a><h3>" + tmp.site + "&nbsp;<a href='"+tmp.link+"' target='_blank'><img src='images/link.png' class='flink'></a></h3><hr/>")
+						build.push("<desc>" + tmp.description + "</desc><br/>");
+						for(links = 0; links < tmp.sublink.length; links++){
+							build.push("<a href='" + tmp.link + tmp.sublink[links].link + "' target='_blank'>" + tmp.sublink[links].topic + "</a>, ");
+						}
+						build.push("</div>");;
+					}
+					$("#resourcesDiv").append(build.join(''));
+				});
+				
+				
+				
+				
+			});
+			$(document).ajaxStop(function () {
+					$(".logo").hover(function(){$(this).addClass("highlighted");}, function (){ $(this).removeClass("highlighted") });				
+			});
+</script>
+	<center>
+	<div style="width:1000px;">
+	<div style="border-top-left-radius: 20px;border-top-right-radius: 20px;margin-left:10px;width:970px;border:thick #000 outset;background-image:url(images/zertxtr3.gif);float:left;text-align:left;">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
+
+	<div id="tabs" style="border:#000">
+		<ul id="menu">
+
+		</ul>
+			<div id="tabs-1">
+                  <div id="resourcesDiv">
+                        
+                  </div>
+                  <div style="color:#999;padding:5px;">Copyright &copy; 2013 Bayside High School Computer Programming CTE.  All rights reserved.</div>
+            </div>
+		</div>
+	
+    </div>
+    </center>
+    
+        <div id="dialog" title="Download complete"></div>
+</body>
+</html>

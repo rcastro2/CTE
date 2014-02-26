@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	  <title>CTE Computer Programming @ Bayside High School</title>
+	  
+      <!-- Meta -->
+      
+      <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>-->
+
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <link type="text/css" href="css/dark-hive/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script> 
+
+
+        <script type="text/javascript">
+            $(function(){
+                // Tabs
+                $( "#dialog" ).dialog({
+                    autoOpen: false,
+                    draggable: false,
+                    modal: true,
+                    close: function(event, ui) { document.body.style.overflow = 'visible'; }		
+                });
+        
+            });
+        
+            function loadwindow(choice, w, h, t) {
+                var messages = [$('#CourseSequence').html(),$('#SalarySummary').html(),$('#LaborStats').html()];	
+                document.body.style.overflow = 'hidden';
+                $('#dialog').html(messages[choice]); $('#dialog').dialog("option", "width", w); $('#dialog').dialog("option", "height", h);
+                $('#dialog').dialog('option', 'title', t); $('#dialog').dialog('open'); 
+            }	
+        
+        </script>
+      <style type="text/css">
+		  html{font-size:62.5%}
+		  body{font-size:1.2em;color:#294f88;font-family:Arial, Helvetica, sans-serif;overflow-y:scroll}
+		  .sample{margin-top:5px;background: #000000 url(images/bk.png);padding:10px;width:950px;}
+		  h1{margin:0 0 20px 0;padding:0;font-size:2em;}
+		  h2{margin:40px 0 20px 0;padding:0;font-size:1.6em;}
+		  .easy-accordion h2{margin:0px 0 20px 0;padding:0;font-size:1.6em;}
+		  p{font-size:1.2em;line-height:170%;margin-bottom:20px}
+		  dd p{line-height:120%}
+		  dd li{padding:5px}
+		#dirtab {height:800px;}
+		#dirtab h3{cursor:pointer;position:relative;z-index:3;padding:5px;border-top-left-radius: 10px;border-top-right-radius: 10px;background: #444444 url(images/bluebk.jpg) 50% 50% repeat-x;}
+		#dirtab div{position:relative;z-index:2;top:-25px;padding:10px;background: #eeeeee url(images/zertxtr3.gif);color:#000;}
+		#dirtab .bottomdiv{position:relative;z-index:1;top:-32px;height:10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;background: #eeeeee url(images/zertxtr3.gif);color:#000;}
+#menu
+{
+background-color:#AAAAAA;
+width:970px;
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+#menu li
+{
+float:left;
+}
+#menu a:link,#menu a:visited
+{
+display:block;
+width:130px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#AAAAAA;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+text-shadow: 2px 2px #000000;
+}
+#menu a:hover,#menu a:active
+{
+color:#FFAA22;
+}
+#tabs{width:980px;background-color:black;background-image:url(images/bk.png);}
+      </style>
+      
+</head>
+<body style="background-color:#222">
+	<center>
+	<div style="width:1000px;">
+	<div style="border-top-left-radius: 20px;border-top-right-radius: 20px;margin-left:10px;width:970px;border:thick #000 outset;background-image:url(images/zertxtr3.gif);float:left;text-align:left;">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
+<br /><br /><br /><br /><br /><br /><br /><br />
+
+		<div id="tabs" style="border:#000">
+			<ul id="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="news.html">News</a></li>
+                <li><a href="events.html">Event</a></li>
+                <li><a href="testimonial.html">Testimonial</a></li>
+				<li><a href="pi.html">PI</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+			</ul>
+			<div id="tabs-1">
+                  <div class="sample">
+                        
+                  </div>
+                  <div style="color:#999;padding:5px;">Copyright &copy; 2013 Bayside High School Computer Programming CTE.  All rights reserved.</div>
+            </div>
+		</div>
+	
+    </div>
+    </center>
+    
+        <div id="dialog" title="Download complete"></div>
+</body>
+</html>

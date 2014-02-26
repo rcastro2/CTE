@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	  <title>CTE Computer Programming @ Bayside High School</title>
+
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <link type="text/css" href="css/dark-hive/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script> 
+		<link href="css/ctecs.css" rel="stylesheet" />
+		<script src="js/ctecs.js"></script>
+
+        <script type="text/javascript">
+			$(document).ready(function(){
+				$("#menu").html(myMenu(2));
+				$.ajax({
+					type: "GET",
+					url: "opportunities.xml",
+					dataType: "xml",
+					success: function(xml) {
+						var output = "";
+						$(xml).find('opportunity').each(function(){
+							
+							var desc = $(this).find('description').text();
+							var title = $(this).attr('title');
+							var posted = $(this).attr('posted');
+							var logo = $(this).attr('logo');
+							var website = $(this).find('website').text();
+							var link = $(this).find('link').text();
+							output += "<div class='opportunity'><div class='title'>" + title + "</div><img src='" + logo + "'>";
+							output += "<div class='description'>" + desc + "<hr/><span class='website'>Website: <a href='" +  website + "'>" + website +  "</a></span><span class='link'>Apply: <a href='" + link + "'>" + link + "</a></span></div><div class='posted'>Posted: " + posted+ "</div>";
+							output += '</div><hr/>';
+						});
+						$('#main-div').html(output);
+					}
+				});
+			})
+            $(function(){
+                // Tabs
+                $( "#dialog" ).dialog({
+                    autoOpen: false,
+                    draggable: false,
+                    modal: true,
+                    close: function(event, ui) { document.body.style.overflow = 'visible'; }		
+                });
+        
+            });
+                
+        </script>
+		<style>
+		.opportunity{text-align:left;background-color:white; }
+		.opportunity img{width:100px;float:left;padding:10px;}
+		.title{ background-color:black; color:white;font-weight:bold;padding:10px;font-size:1.5em}
+		.description{ background-color:white;color:black;padding:10px;font-weight:normal;display:table;}
+		.website, .link {text-decoration:none;display:inline-table;width:100%}
+		.posted{background-color:gray;color:white;font-style:italic;padding:5px 0px 5px 10px;}
+		</style>
+      
+</head>
+<body style="background-color:#222">
+	<center>
+	<div style="width:1000px;">
+	<div style="border-top-left-radius: 20px;border-top-right-radius: 20px;margin-left:10px;width:970px;border:thick #000 outset;background-image:url(images/zertxtr3.gif);float:left;text-align:left;">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
+
+	<div id="tabs" style="border:#000">
+		<ul id="menu">
+
+		</ul>
+		
+        <div id="main-div" class="sample">
+            
+        </div>
+        <div style="color:#999;padding:5px;">Copyright &copy; 2013 Bayside High School Computer Programming CTE.  All rights reserved.</div>
+
+		</div>
+    </div>
+    </center>
+    
+        <div id="dialog" title="Download complete"></div>
+</body>
+</html>

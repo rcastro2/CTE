@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opportunities>
+    <opportunity title="GenTech Summer Program" posted="10 FEB 14" logo="http://nycgenerationtech.com/wp-content/themes/NYCGT-Yasmin/2.0/img/logo_lg.jpg">
+		<description ><![CDATA[
+		In a two-week tech-entrepreneurship “bootcamp”, students learn the fundamentals of entrepreneurship; develop basic knowledge of HTML, CSS, and JavaScript; and form teams to develop a mobile app and business plan aimed at improving education or the quality of city life for NYC students.<br/><br/> Following the bootcamp, students will continue to develop their coding skills while building out their apps and business plan during weekly classroom sessions and twice-weekly evening mentoring sessions from July-August.
+		]]></description>
+		<website>
+		http://nycgenerationtech.com/
+		</website>
+		<link>
+		http://nycgenerationtech.com/apply/
+		</link>
+	</opportunity>
+    <opportunity title="edX" posted="10 FEB 14" logo="https://www.edx.org/sites/default/files/theme/edx-logo-header.png">
+		<description ><![CDATA[
+		edX courses are designed to be interesting, fun and rigorous. They are the best courses, from the best professors and the best schools, spanning dozens of subjects. Some edX courses now offer ID verified Certificates of Achievement. A new way to demonstrate your achievement and showcase your knowledge. <br/><br/>
+
+		edX offers interactive online classes and Massive Open Online Courses (MOOCs) from the world’s best universities. Online courses from MITx, HarvardX, BerkeleyX, UTx and many other universities. Topics include biology, business, chemistry, computer science, economics, finance, electronics, engineering, food and nutrition, history, humanities, law, literature, math, medicine, music, philosophy, physics, science, statistics and more. EdX is a non-profit online initiative created by founding partners Harvard and MIT.
+		]]></description>
+		<website>
+		https://www.edx.org/course-list/allschools/allsubjects/allcourses
+		</website>
+		<link>
+		https://courses.edx.org/register
+		</link>
+	</opportunity>
+	<opportunity title="Girls Who Code: Summer Immersion Program" posted="07 FEB 14" logo="http://girlswhocode.com/wp-content/uploads/2013/04/Press_GWC-Square-Logo.png">
+		
+		<description ><![CDATA[
+		Launched in Spring 2012, Girls Who Code is a national nonprofit organization working to close the gender gap in the technology and engineering sectors. With support from public and private partners, Girls Who Code works to educate, inspire, and equip high school girls with the skills and resources to pursue opportunities in computing fields.<br/><br/>
+
+The Girls Who Code Summer Immersion Program represents an innovative approach to computer science education, pairing seven weeks of intensive instruction in robotics, web design, and mobile development with engaging, career-focused mentorship and exposure led by the industry's top female entrepreneurs and engineers. 
+ 
+		]]></description>
+		<website>
+		http://girlswhocode.com/programs/
+		</website>
+		<link>
+		http://girlswhocode.com/applynow/
+		</link>
+	</opportunity>
+	<opportunity title="GenTech Student Hackathon: Code4Tomorrow" posted="04 FEB 14" logo="http://ebmedia.eventbrite.com/s3-build/images/4369715/57053281795/1/logo.jpg">
+		<description ><![CDATA[
+		GenTech Student Hackathon: Code4Tomorrow challenges students to identify ways to make a positive change in the communities in which they live and to think about solutions for big social problems related to health, education, employment, and seniors. With the support of volunteer mentors, students will create a digital prototype, promotional website, and demo presentation to showcase their idea. In the evening, all students will present, and prizes will be awarded to the winning teams. We hope you can join us!<br/><br/>
+		NYC Generation Tech (GenTech) student hackathons aim to provide NYC high school students from under-resourced communities the opportunity to develop their coding skills and work alongside professionals from NYC’s tech community.
+ 
+		]]></description>
+		<website>
+		http://nycgenerationtech.com/
+		</website>
+		<link>
+		http://www.eventbrite.com/e/gentech-student-hackathon-code4tomorrow-registration-10124531747
+		</link>
+	</opportunity>
+	<opportunity title="CodeNOW" posted="01 FEB 14" logo="http://blog.awesomefoundation.org/wp-content/uploads/2011/12/codenow-logo-sm1.png">
+		<description ><![CDATA[
+What do Instagram, Snapchat and Twitter have in common? They were all created by people who knew how to code. Programming is a skill that gives you the ability to create and innovate. How cool would it be to take an idea and watch it come to life through programming? All it takes is the willingness to try something new, and the dedication to work at it. That’s what CodeNow is for!  We introduce you to programming in a fun and interactive way.<br/><br/>
+
+Our workshops take place in San Francisco and New York City on the weekends at local tech companies, and are led by top software engineers. Accepted students will be given puzzles and activities to complete before the workshop. Those who complete the workshop will have an opportunity to continue with CodeNow and earn a laptop. It will not be easy, but you’ll definitely have fun and learn a lot along the way. And we’ll provide you with all the tools and resources to get you on your way to become a great programmer.<br/><br/>
+
+Does this sound like fun and something you might be interested in? We’re currently accepting applications which are due on February 5th. If selected, you’ll receive a scholarship worth $250 in order to attend the program. Which means it’s free and you get to brag to all your friends!
+		]]></description>
+		<website>
+		http://codenow.org
+		</website>
+		<link>
+		http://codenow.org/apply/
+		</link>
+	</opportunity>
+	<opportunity title="Stanford Online" posted="06 FEB 14" logo="https://class.stanford.edu/static/themes/stanford/images/stanford-S-logo.ac1a37d62c92.png">
+		<description ><![CDATA[
+Stanford University is developing new online course material in order to improve on-campus courses and provide broader public access to exciting learning opportunities. The engineering team at Stanford's office of the Vice Provost for Online Learning is running and developing on an instance of the OpenEdX platform. Courses are totally free and offer certificates of completion from Stanford University.  <br/><br/>Starts 06 JAN 14 - Introduction to Databases.<br/>
+Starts 21 JAN 14 - Introduction to Computer Networking </br>
+		]]></description>
+		<website>
+		https://class.stanford.edu/
+		</website>
+		<link>
+		https://class.stanford.edu/register
+		</link>
+	</opportunity>
+</opportunities>

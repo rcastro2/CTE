@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	  <title>CTE Computer Programming @ Bayside High School</title>
+
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <link type="text/css" href="css/dark-hive/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script> 
+		<link href="css/ctecs.css" rel="stylesheet" />
+		<script src="js/ctecs.js"></script>
+
+        <script type="text/javascript">
+			$(document).ready(function(){
+				$("#menu").html(myMenu(5));
+			})
+            $(function(){
+                // Tabs
+                $( "#dialog" ).dialog({
+                    autoOpen: false,
+                    draggable: false,
+                    modal: true,
+                    close: function(event, ui) { document.body.style.overflow = 'visible'; }		
+                });
+        
+            });
+                
+        </script>
+      <style type="text/css">
+		.sample{margin-top:5px;background: #000000 url(images/bk.png);padding:10px;width:950px;}
+		p{font-size:1.2em;line-height:170%;margin-bottom:20px}
+
+		#dirtab {height:800px;text-align:left}
+		#dirtab h3{cursor:pointer;position:relative;z-index:3;padding:5px;border-top-left-radius: 10px;border-top-right-radius: 10px;background: #444444 url(images/bluebk.jpg) 50% 50% repeat-x;color:white;text-align:center;}
+		#dirtab div{position:relative;z-index:2;top:-25px;padding:10px;background: #eeeeee url(images/zertxtr3.gif);color:#000;}
+		#dirtab i{text-align:right;color:blue}
+		#dirtab .bottomdiv{position:relative;z-index:1;top:-32px;height:10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;background: #eeeeee url(images/zertxtr3.gif);color:#000;}
+
+			#mapviewer{ text-align:center;background-color:white;padding:10px; border-radius:10px;margin:10px; }
+			#mapviewer img{border-top-left-radius:10px;border-top-right-radius:10px;margin-top:5px;}
+			#mapviewer iframe{border-bottom-left-radius:10px;border-bottom-right-radius:10px;}
+			#mapviewer span{display:block;color:#FFF;margin:5px 10px 5px 10px;padding:4px 0px 4px 0px;font-size:1.25em;font-weight:bold;background-image:url(images/bk.png);}
+			.msg img{height:125px;margin-top:5px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;float:left;}
+			#desc{height:125px; display:table;padding:5px 0px 0px 5px; }
+			.links a{text-decoration:none;color:blue;}
+			.links a:hover{text-decoration:none;color:#FFAA22;}
+      </style>
+      
+</head>
+<body style="background-color:#222">
+	<center>
+	<div style="width:1000px;">
+	<div style="border-top-left-radius: 20px;border-top-right-radius: 20px;margin-left:10px;width:970px;border:thick #000 outset;background-image:url(images/zertxtr3.gif);float:left;text-align:left;">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
+
+	<div id="tabs" style="border:#000">
+		<ul id="menu">
+
+		</ul>
+			<div id="tabs-1">
+                  <div class="sample">
+                  <table width="100%" border="0"><tr><td width="50%" valign="top">
+					  <div id="mapviewer"><img src="images/school_header.jpg" width="95%">
+					  <span id="address">32-24 Corporal Kennedy St<br/>Bayside, New York 11361</span>
+					  <iframe id="map" Name="mapFrame" scrolling="no" width="410" height="300" frameborder="0" src="http://www.bing.com/maps/embed/?lvl=16&amp;cp=40.77179721642221~-73.780378125899&amp;sty=h&amp;draggable=true&amp;v=2&amp;dir=0&amp;where1=32-24+Corporal+Kennedy+St%2C+Bayside%2C+NY+11361&amp;form=LMLTEW&amp;pp=40.771797224879265~-73.78037832677364&amp;mkt=en-us&amp;emid=6fbf1b92-f1f9-41bf-218e-5502c8d377be&amp;w=410&amp;h=300"></iframe><div id="LME_maplinks" style="line-height:20px;"><a id="LME_largerMap" href="http://www.bing.com/maps/?mm_embed=map&amp;cp=40.77179721642221~-73.780378125899&amp;lvl=16&amp;sty=h&amp;where1=32-24+Corporal+Kennedy+St%2C+Bayside%2C+NY+11361&amp;form=LMLTEW" target="_blank">View Larger Map</a>&nbsp;<a id="LME_directions" href="http://www.bing.com/maps/?mm_embed=dir&amp;cp=40.77179721642221~-73.780378125899&amp;rtp=~pos.40.771797224879265_-73.78037832677364_32-24+Corporal+Kennedy+St%2C+Bayside%2C+NY+11361&amp;lvl=16&amp;sty=h&amp;form=LMLTEW" target="_blank">Get Directions</a>&nbsp;<a id="LME_birdsEye" href="http://www.bing.com/maps/?mm_embed=be&amp;cp=40.77179721642221~-73.780378125899&amp;lvl=18&amp;sty=b&amp;where1=32-24+Corporal+Kennedy+St%2C+Bayside%2C+NY+11361&amp;form=LMLTEW" target="_blank">View Bird's Eye</a></div>
+					  </div>
+                  </td>
+                  <td>
+                  		<div id="dirtab">
+                      <h3>Message from Director</h3>    
+                      <div class="msg">
+                        <img src="images/me.jpg" >
+						<span id="desc">Computer programming offers a unique way to be creative, to be an innovator.<br/><br/> If you've ever provided instructions, made a decision, repeated a process you might be a programmer!
+						</span>
+                      </div>
+                      <div class="bottomdiv" >&nbsp;</div>                     
+                       <h3 class="b1" >Contact</h3>
+                      <div><hr/>
+                        <b>Renne Castro</b>  <i>CTE Computer Programming Director</i> rcastro@baysidehigh.org<br/><br/>
+						<b>Elizabeth Guglielmo</b>  <i>CTE Bayside High School Director</i> eguglielmo@baysidehigh.org<br/><br/>
+						<b>Madeline Belfi Galvin</b>  <i>AP Mathematics & Computer Science</i> mbelfi@baysidehigh.org
+						
+                      </div><div class="bottomdiv">&nbsp;</div> 
+                      <h3 class="b1" >Links</h3>
+                    
+                      <div class="links"><hr/>
+                        <a href="http://www.baysidehighschool.org" target="_blank">Bayside High School</a><br/>
+						<a href="http://schools.nyc.gov/OA/SchoolReports/2012-13/Progress_Report_Overview_2013_HS_Q495.pdf" target="_blank">Progress Report</a><br/>
+						<a href="https://csta.acm.org/Curriculum/sub/K12Standards.html" target="_blank">Computer Science Teacher Association</a><br/>
+						
+                      </div><div class="bottomdiv">&nbsp;</div> 
+                      </div>
+                    <script>
+						$(".b1").each(function(index){
+							$(this).next().slideUp("slow");
+						})
+                        $(".b1").click(function () {
+                          $(this).next().slideToggle("slow");
+                        });
+                    </script>
+				 
+                  </td>
+                  </tr>
+                  </table>
+                  </div>
+                  <div style="color:#999;padding:5px;">Copyright &copy; 2013 Bayside High School Computer Programming CTE.  All rights reserved.</div>
+            </div>
+		</div>
+	
+    </div>
+    </center>
+    
+        <div id="dialog" title="Download complete"></div>
+</body>
+</html>
