@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opportunities>
+    <opportunity title="GenTech Spring Break Game Jam" posted="19 MAR 14" logo="http://nycgenerationtech.com/wp-content/themes/NYCGT-Yasmin/2.0/img/logo_lg.jpg">
+		<description ><![CDATA[
+		Calling all NYC high school students - do you like playing mobile games and want to make games of your own to show your friends? Do you have an idea that will be the 'next Flappy Birds,' but don't know how to bring it to life?
+		<br/><br/>
+		Presented by the Network for Teaching Entrepreneurship (NFTE), the New York City Economic Development Corporation (NYCEDC), and TreSensa, the Spring Break Game Jam aims to provide New York City high school students from under-resourced communities, the opportunity to learn about professional game development and to build related technical skills. With the support of volunteer mentors, each student team will create a mobile game that runs on the TreSensa Game Engine and a 3-min pitch presentation to showcase their work. At the end of the event, students will demo their games to judges from the tech community, and prizes will be awarded to the winning teams. We hope you can join us!
+		<br/><br/>
+		Please note that this a two-day event, taking place 9:00AM-8:00PM both Saturday, 4/12, and Sunday, 4/13. 
+		]]></description>
+		<website>
+		http://nycgenerationtech.com/
+		</website>
+		<link>
+		http://www.eventbrite.com/e/spring-break-game-jam-registration-10802232769
+		</link>
+	</opportunity>
+    <opportunity title="Hack NY" posted="19 MAR 14" logo="http://hackny.org/a/wp-content/uploads/2010/04/hackny_logo_small.png">
+		<description ><![CDATA[
+		 Every spring and fall, hundreds of students from scores of universities around the country flock to hackNY’s student hackathons, where they participate in collaborative and creative coding challenges in a 24-hour coding sprint. The events open with API demos from New York City startups selected by the student organizing committee, after which students work in teams to build projects based on these APIs. Students work around the clock, and the event culminates in a presentation before a panel of judges the next day. hackNY is excited to announce its ninth student hackathon on April 5th-6th at Columbia Engineering’s Fu Foundation School of Engineering and Applied Science.
+		]]></description>
+		<website>
+		http://hackny.org/a/spring2014hackathon/
+		</website>
+		<link>
+		http://www.eventbrite.com/e/spring-2014-hackny-student-hackathon-demos-tickets-10726397945
+		</link>
+	</opportunity>
+    <opportunity title="House APP Challenge" posted="14 FEB 14" logo="http://s3.amazonaws.com/challengepost/photos/production/challenge_photos/000/076/955/datas/full_width.jpg?1393353943">
+		<description ><![CDATA[
+		This year marks the first annual Congressional Science, Technology, Engineering and Math (STEM) Academic Competition, the “House Student App Challenge.”  This new challenge is designed to engage student’s creativity and encourage their participation in STEM education fields.  Established by Members of the U.S. House of Representatives in 2013, this challenge is a nationwide event that allows high school students from across the country to learn by creating and exhibiting their software application, or “app,” for mobile, tablet, or computer devices on a platform of their choice. <br>
+		<br>
+		Throughout the challenge period, participating students will be provided opportunities to engage with various STEM educational partners located within the community to mentor and assist them with their app development. <br>
+		<br>
+		The “House Student App Challenge” is open to all high school students in participating districts. Students entering the competition must submit their app’s source code online during the Competition Submission Period between 12 PM Eastern Standard Time on FEBRUARY 1ST, 2014, and 12 PM Eastern Daylight Time on APRIL 30TH, 2014, as well as provide a YouTube or VIMEO video demo explaining their app and what they learned through this competition process.
+		]]></description>
+		<website>
+		http://housestudentapps.challengepost.com/
+		</website>
+		<link>
+		https://secure.challengepost.com/users/register?return_to=http%3A%2F%2Fhousestudentapps.challengepost.com%2F
+		</link>
+	</opportunity>
     <opportunity title="GenTech Summer Program" posted="10 FEB 14" logo="http://nycgenerationtech.com/wp-content/themes/NYCGT-Yasmin/2.0/img/logo_lg.jpg">
 		<description ><![CDATA[
 		In a two-week tech-entrepreneurship “bootcamp”, students learn the fundamentals of entrepreneurship; develop basic knowledge of HTML, CSS, and JavaScript; and form teams to develop a mobile app and business plan aimed at improving education or the quality of city life for NYC students.<br/><br/> Following the bootcamp, students will continue to develop their coding skills while building out their apps and business plan during weekly classroom sessions and twice-weekly evening mentoring sessions from July-August.
