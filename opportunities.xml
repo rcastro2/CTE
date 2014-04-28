@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opportunities>
+	<opportunity title="HSCTF: Hacking Competition" posted="29 APR 14" logo="http://hsctf.com/images/wires-mobile.png">
+		<description ><![CDATA[
+		HSCTF, High School Capture the Flag, is a national online hacking competition designed to educate high schoolers in computer science. Capture the Flag (CTF) competitions are traditionally targeted at college students or industry professionals. HSCTF is a CTF designed for younger students who might be interested in computer science.
+		<br/><br/>
+		Teams of up to 4 students can compete.  Competition requires only a computer with a modern web browser.  During the competition, different challenges are released which allow the participants to reverse engineer, break, hack, decrypt, and do whatever it takes to capture that flag. When a team submits a flag to the scoring page, they will get points.  
+		<br/><br/>
+		Competition runs from May 18th 10:00AM EST to May 25th 11:59PM EST
+		]]></description>
+		<website>
+		http://hsctf.com/
+		</website>
+		<link>
+		http://hsctf.com/
+		</link>
+	</opportunity>
     <opportunity title="GenTech Spring Break Game Jam" posted="19 MAR 14" logo="http://nycgenerationtech.com/wp-content/themes/NYCGT-Yasmin/2.0/img/logo_lg.jpg">
 		<description ><![CDATA[
 		Calling all NYC high school students - do you like playing mobile games and want to make games of your own to show your friends? Do you have an idea that will be the 'next Flappy Birds,' but don't know how to bring it to life?
