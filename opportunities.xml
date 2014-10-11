@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opportunities>
+	<opportunity title="BREAK" posted="2014 - 2015"></opportunity>
+	<opportunity title="picoCTF 2014" posted="10 OCT 14" logo="images/events/picoCTF2014.png">
+		<description ><![CDATA[
+		picoCTF is a computer security game targeted at middle and high school students. The game consists of a series of challenges centered around a unique storyline where participants must reverse engineer, break, hack, decrypt, or do whatever it takes to solve the challenge. The challenges are all set up with the intent of being hacked, making it an excellent, legal way to get hands-on experience.
+		<br/><br/>
+		This year's competition, Oct 27 - Nov 7, features a brand new adventure. When your father disappears under strange circumstances, a flash drive is your only clue to his whereabouts. You will need to use all of the computer security skills at your disposal to uncover and decipher critical evidence. Can you solve the mystery before it's too late?
+		<br/><br/>Contact Mr. Castro in person or at rcastro@baysidehigh.org.  We wish to organize teams at the school level.  In Spring 2013, Bayside High School's team Bayside Overflow placed 280 across a national field of 1938 teams.
+		]]></description>
+		<website>
+		https://picoctf.com/
+		</website>
+		<link>
+		https://picoctf.com/#registration
+		</link>
+	</opportunity>
+	<opportunity title="CodeDay New York" posted="10 OCT 14" logo="https://pbs.twimg.com/profile_images/378800000634893302/7d23af54986059cb8253c10f7fd00cc6.png">
+		<description ><![CDATA[
+		CodeDay is a 24-hour event where students passionate about technology get together and build cool things together! You pitch ideas, form teams, and build a cool app or game over 24 hours! We're constantly amazed by the results after CodeDay! 
+		<br/><br/>
+		CodeDay is from Nov 8 - 9 noon to noon at the <a href='http://www.wix.com/lounge/new-york'>Wix Lounge</a> in NYC.  Bring a laptop to work on! If you can, please bring a power strip.  We'll have food, including vegetarian options.  Cost is $20.
+		]]></description>
+		<website>
+		http://codeday.org/ny
+		</website>
+		<link>
+		https://codeday.org/ny/register
+		</link>
+	</opportunity>
+
+	<opportunity title="Code NOW" posted="6 OCT 14" logo="http://codenow.org/wp-content/themes/codenow/img/navbar/CN_header_logo.gif">
+		<description ><![CDATA[
+		What do Instagram, Snapchat and Twitter have in common? They were all created by people who knew how to code. Programming is a skill that gives you the ability to create and innovate. That’s what CodeNow is for! We introduce you to programming in a fun and interactive way.
+		<br/><br/>
+		Our workshops take place on Nov 8, 9 & 22 at a local tech company. During the workshop you’ll get to build fun interactive games and learn from top software engineers. If accepted, we’ll ask you to complete some puzzles and other fun activities in preparation for the workshop. After completing the workshop you’ll have a better understanding of what programming is. It will not be easy, but you’ll definitely have fun and learn a lot along the way. And we’ll provide you with all the tools and resources to get you on your way to become a great programmer. 
+		<br/><br/>
+		Application Deadline:  Wednesday, Oct 22
+		]]></description>
+		<website>
+		http://codenow.org/
+		</website>
+		<link>
+		http://codenow.org/get-involved/
+		</link>
+	</opportunity>
+
+	<opportunity title="the itGirls Overnight Retreat" posted="29 SEP 14" logo="http://ischool.syr.edu/media/images/2014/3/itgirlslogo.png">
+		<description ><![CDATA[
+		Hosted at Syracuse University on Nov 9 - 10, 2014 in Upstate NY, the itGirls Overnight Retreat aims to expose high school women to the information science field of study. Each year, we invite about 100 high school juniors and seniors from across the nation just like YOU to come and learn more about technology, our school, and to meet other It Girls!
+		<br/><br/>
+		The It Girls Overnight Retreat is a two-day event loaded with fun! You will have a chance to experience a day in the life of an iSchool student, make new friends, interact with current It Girls at the iSchool who are on the verge of greatness, and network with industry leaders who are paving the way (and might one day want to hire you!). If YOU believe that you are an It Girl and would like to join us this year, applications are open now!  
+		]]></description>
+		<website>
+		http://ischool.syr.edu/ilife/womenintech/theitgirls
+		</website>
+		<link>
+		http://ischool.syr.edu/ilife/womenintech/theitgirls/apply.aspx
+		</link>
+	</opportunity>
+	<opportunity title="BREAK" posted="2013 - 2014"></opportunity>
 	<opportunity title="HSCTF: Hacking Competition" posted="29 APR 14" logo="http://hsctf.com/images/wires-mobile.png">
 		<description ><![CDATA[
 		HSCTF, High School Capture the Flag, is a national online hacking competition designed to educate high schoolers in computer science. Capture the Flag (CTF) competitions are traditionally targeted at college students or industry professionals. HSCTF is a CTF designed for younger students who might be interested in computer science.
@@ -8,11 +67,26 @@
 		<br/><br/>
 		Competition runs from May 18th 10:00AM EST to May 25th 11:59PM EST
 		]]></description>
-		<website>
+				<website>
 		http://hsctf.com/
 		</website>
 		<link>
 		http://hsctf.com/
+		</link>
+	</opportunity>
+	<opportunity title="CodeDay New York" posted="30 APR 14" logo="https://pbs.twimg.com/profile_images/378800000634893302/7d23af54986059cb8253c10f7fd00cc6.png">
+		<description ><![CDATA[
+		CodeDay is a 24-hour event where students passionate about technology get together and build cool things together! You pitch ideas, form teams, and build a cool app or game over 24 hours!
+		<br/><br/>
+		We're constantly amazed by the results after CodeDay! For instance, Mohammad Adib created and published <a href="https://play.google.com/store/apps/details?id=mohammad.adib.sidebar.lite&hl=en" target="_blank">Sidebar</a>, an Android app with over 200,000 downloads at CodeDay!  
+		<br/><br/>
+		CodeDay is from May 24 to May 25 noon to noon at the Flatiron School in NYC.  Bring a laptop to work on! If you can, please bring a power strip.  We'll have food, including vegetarian options.  Students can receive 20% off if they use the promo code SCHOOL.
+		]]></description>
+		<website>
+		http://codeday.org/ny
+		</website>
+		<link>
+		http://www.eventbrite.com/e/codeday-spring-2014-new-york-registration-11194534153
 		</link>
 	</opportunity>
     <opportunity title="GenTech Spring Break Game Jam" posted="19 MAR 14" logo="http://nycgenerationtech.com/wp-content/themes/NYCGT-Yasmin/2.0/img/logo_lg.jpg">

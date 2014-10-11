@@ -20,15 +20,21 @@
 						var output = "";
 						$(xml).find('opportunity').each(function(){
 							
-							var desc = $(this).find('description').text();
 							var title = $(this).attr('title');
 							var posted = $(this).attr('posted');
-							var logo = $(this).attr('logo');
-							var website = $(this).find('website').text();
-							var link = $(this).find('link').text();
-							output += "<div class='opportunity'><div class='title'>" + title + "</div><img src='" + logo + "'>";
-							output += "<div class='description'>" + desc + "<hr/><span class='website'>Website: <a href='" +  website + "'>" + website +  "</a></span><span class='link'>Apply: <a href='" + link + "'>" + link + "</a></span></div><div class='posted'>Posted: " + posted+ "</div>";
-							output += '</div><hr/>';
+							
+							if(title == "BREAK")
+									output += "<div class='break'>" + posted + "</div>"
+							else{
+								var desc = $(this).find('description').text();
+								var posted = $(this).attr('posted');
+								var logo = $(this).attr('logo');
+								var website = $(this).find('website').text();
+								var link = $(this).find('link').text();
+								output += "<div class='opportunity'><div class='title'>" + title + "</div><img src='" + logo + "'>";
+								output += "<div class='description'>" + desc + "<hr/><span class='website'>Website: <a href='" +  website + "'>" + website +  "</a></span><span class='link'>Apply: <a href='" + link + "'>" + link + "</a></span></div><div class='posted'>Posted: " + posted+ "</div>";
+								output += '</div>';
+							}
 						});
 						$('#main-div').html(output);
 					}
@@ -53,6 +59,9 @@
 		.description{ background-color:white;color:black;padding:10px;font-weight:normal;display:table;}
 		.website, .link {text-decoration:none;display:inline-table;width:100%}
 		.posted{background-color:gray;color:white;font-style:italic;padding:5px 0px 5px 10px;}
+		.break {color:white;text-align:center;font-size:1.75em;
+				background: linear-gradient(#77c,#11a); text-shadow: 2px 2px #222;
+				font-weight:bold;padding:2px;margin:5px 5px 0px 5px}
 		</style>
       
 </head>

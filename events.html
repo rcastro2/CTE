@@ -71,7 +71,12 @@
 			margin:10px 20px 10px 10px;
 			box-shadow:10px 10px 10px black;
 			}
+			#popup_img { width:98%; }
+			.break {color:white;text-align:center;font-size:1.75em;
+				background: linear-gradient(#77c,#11a); text-shadow: 2px 2px #222;
+				font-weight:bold;padding:2px;margin:5px 5px 0px 5px}
 			</style>
+			
 
 		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
         <link type="text/css" href="css/dark-hive/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
@@ -103,12 +108,16 @@
 			
 					$("link+a").each(function (){  $(this).attr("target","_blank");	})
 					$( "img" ).click(function() {
-					  var imgsrc = ($(this).attr('src').indexOf("_")!=-1)?"images/events/" + $(this).attr('src').substring($(this).attr('src').indexOf("_")+1):$(this).attr('src')
-					  
+					  var imgsrc;
+					  if($(this).attr('src').substring(0,4) == "http")
+					    imgsrc = $(this).attr('src')
+					  else
+						imgsrc = ($(this).attr('src').indexOf("_")!=-1)?"images/events/" + $(this).attr('src').substring($(this).attr('src').indexOf("_")+1):$(this).attr('src')
+
 					  var img = new Image();
 					  img.src = imgsrc;
 					  img.onload = function() {
-					      $('#dialog').dialog("option", "width", this.width + 43); $('#dialog').dialog("option", "height", this.height+55);
+					      $('#dialog').dialog("option", "width", this.width + 43); $('#dialog').dialog("option", "height", this.height+59);
 						}
 					  $("#popup_img").attr('src', imgsrc);					  
 					  $( "#dialog" ).dialog( "open" );
