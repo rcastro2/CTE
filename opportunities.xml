@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opportunities>
 	<opportunity title="BREAK" posted="2014 - 2015"></opportunity>
+	<opportunity title="USA Computing Olympiad" posted="22 NOV 14" logo="images/events/usaco_logo.png">
+		<description ><![CDATA[
+		The USA Computing Olympiad (USACO) supports computing education in the USA and worldwide by identifying, motivating, and training pre-college students of all levels in computational problem-solving. For its 2014-2015 season, the USACO plans to offer four monthly on-line programming contests:
+		<ul>
+		<li>Dec 12-15: First Contest</li>
+		<li>Jan 16-19: Second Contest</li>
+		<li>Feb 20-23: Third Contest</li>
+		<li>April 3-6: US Open (our championship contest)</li>
+		</ul>
+		Contests are free and open to all; they are targeted specifically at pre-college students, although others may compete as observers, ranked separately. There are three levels of difficulty: bronze (novice), silver (intermediate), and gold (advanced). All new competitors start out in the bronze level, which is designed to be accessible to students with basic programming knowledge and minimal algorithmic experience. Students earn promotion to higher levels by demonstrating excellent performance on a contest in their current level. Contests are usually 3-5 consecutive hours in duration, which students can schedule any time during a 4-day contest window. Students can submit programs in C, C++, Java, Pascal, or Python. All contests are taken individually.
+		]]></description>
+		<website>
+		http://usaco.org
+		</website>
+		<link>
+		http://usaco.org/index.php?page=register
+		</link>
+	</opportunity>
+	<opportunity title="EasyCTF" posted="22 NOV 14" logo="images/events/EasyCTF.jpg">
+		<description ><![CDATA[
+		EasyCTF is an online computer security contest targeted at middle and high school students. The contest consists of a series of challenges centered around a creative storyline where participants must reverse engineer, break, hack, decrypt, or do whatever it takes to solve the challenge and capture the flag. The challenges are all set up with the intent of being hacked, making it an excellent, legal way to get hands-on experience.
+		<br/><br/>
+		Singularity is an interactive game right in your browser that contains the storyline for all of the problems in the contest. Playing the game is recommended, but not required, to complete the contest. The story is set far into the future, when researchers have discovered ways to create computers that are capable of thought. After rewriting its own code, the robots have destroyed the research facility and are now on their way to destroying the world. It's up to you and your hacking skills to combat the robot and save the world!
+		<br/><br/>
+		From November 29 to December 6, 2014, teams of up to 5 students will play an interactive game set far into the future, <b>Singularity</b>
+		]]></description>
+		<website>
+		http://www.easyctf.com/
+		</website>
+		<link>
+		http://www.easyctf.com/register
+		</link>
+	</opportunity>
+	<opportunity title="YH: Local Hack Day" posted="22 NOV 14" logo="images/events/yhlogo.png">
+		<description ><![CDATA[
+		A hack day is about celebrating the hacker community at your school by coming together and building awesome projects together! During the hack day your community will come together to create and build community together over 12 hours. MLH will be providing awesome programming and swag all day long to help celebrate all the Hacker Community everywhere.
+		<br/><br/>
+		Local Hack Day kicks off 9:00 am EST, December 6th, and lasts until 9:00 pm EST at <a href="https://www.google.com/maps/place/902+Broadway,+New+York,+NY+10010/@40.7383171,-73.9901185,18z/data=!4m2!3m1!1s0x89c259a3cde0617f:0x8d063ab0462e10e2">General Assembly</a> near Union Square Park, the heart of New York City. Regardless of experience level, all are welcome to come learn, celebrate and build.  Make sure to bring any hardware, laptops or smart-phones that you want to utilize during the event. We'll try really hard to get you guys access to some crazy cool hardware.
+		<br/><br/>Brought to you by <a target="_blank" href="http://younghackers.us/">The Young Hackers</a> and <a target="_blank" href="http://localhackday.mlh.io/">Major League Hacking</a>.
+		]]></description>
+		<website>
+		http://localhackday.younghackers.us/
+		</website>
+		<link>
+		https://younghackers.typeform.com/to/un6ui7
+		</link>
+	</opportunity>
 	<opportunity title="picoCTF 2014" posted="10 OCT 14" logo="images/events/picoCTF2014.png">
 		<description ><![CDATA[
 		picoCTF is a computer security game targeted at middle and high school students. The game consists of a series of challenges centered around a unique storyline where participants must reverse engineer, break, hack, decrypt, or do whatever it takes to solve the challenge. The challenges are all set up with the intent of being hacked, making it an excellent, legal way to get hands-on experience.
