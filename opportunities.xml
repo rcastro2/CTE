@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opportunities>
 	<opportunity title="BREAK" posted="2014 - 2015"></opportunity>
+	<opportunity title="National STEM Video Game Challenge" posted="23 NOV 14" logo="http://www.stemchallenge.org/stem/generated/header-logo-stem.png">
+		<description ><![CDATA[
+		The National STEM Video Game Challenge, presented by the Smithsonian in partnership with the Joan Ganz Cooney Center and E-Line Media, opens for student submissions of original video games and game designs. The Challenge aims to motivate interest in Science, Technology, Engineering and Math (STEM) learning among youth by tapping into their natural passions for playing and making video games.<br/><br/>
+		Entries can be created using any game creation platform such as Gamestar Mechanic, Unity, GameMaker and Scratch or a written game design concept document. Judges will select winners for each game creation platform in both categories. Each winner will receive computer hardware as well as game design and educational software. Each winner’s sponsoring organization will receive a cash prize of $2000.<br/><br/>
+		The National STEM Video Game Challenge is accepting entries through February 25, 2015. Complete guidelines and details on how to enter are available on the website.
+		]]></description>
+		<website>
+		http://www.stemchallenge.org
+		</website>
+		<link>
+		http://www.stemchallenge.org/stem/#/student_signup_info
+		</link>
+	</opportunity>
 	<opportunity title="USA Computing Olympiad" posted="22 NOV 14" logo="images/events/usaco_logo.png">
 		<description ><![CDATA[
 		The USA Computing Olympiad (USACO) supports computing education in the USA and worldwide by identifying, motivating, and training pre-college students of all levels in computational problem-solving. For its 2014-2015 season, the USACO plans to offer four monthly on-line programming contests:
