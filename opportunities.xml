@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opportunities>
 	<opportunity title="BREAK" posted="2014 - 2015"></opportunity>
+	<opportunity title="Hour of Code 2014" posted="08 DEC 14" logo="http://hourofcode.com/images/hour-of-code-logo.png">
+		<description ><![CDATA[
+		The Hour of Code is a global movement reaching tens of millions of students in 180+ countries during December 8-14, 2014, in celebration of Computer Science Education Week.  The Hour of Code is a one-hour introduction to computer science, designed to demystify code and show that anybody can learn the basics. <b> Ages 4 to 104.</b>
+		<br/><br/>
+		Below are just a few organizations hosting events in support of the Hour of Code.
+		<ul>
+		<li><a href="https://code.org/learn">Code.org</a></li>
+		<li><a href="https://codehs.com/hourofcode/">CodeHS</a></li>
+		<li><a href="https://www.apple.com/retail/code/">Apple</a></li>
+		<li><a href="http://www.microsoft.com/about/corporatecitizenship/en-us/youthspark/youthsparkhub/hourofcode/">Microsoft</a></li>
+		<li><a href="http://goo.gl/forms/P1ylmDjiOR">Bayside High School</a></li>
+		</ul>
+		<br/>
+		Every student should have the opportunity to learn computer science. It helps nurture problem-solving skills, logic and creativity. By starting early, students will have a foundation for success in any 21st-century career path.
+		]]></description>
+		<website>
+		http://hourofcode.com/us
+		</website>
+		<link>
+		http://hourofcode.com/us
+		</link>
+	</opportunity>
+	<opportunity title="BEBRAS Computing Challenge 2014" posted="05 DEC 14" logo="images/events/bebras.png">
+		<description ><![CDATA[
+		The Bebras Computing Challenge introduces computational thinking to students. It is organized in over 30 countries and designed to get students all over the world excited about computing.  Each participant gets 45 minutes to answer 15 multiple-choice questions that focus on computational and logical thinking. It is completed online in your own school and it shows to school and student how well their skills are developed.<br/><br/>
+		<b>What is computational thinking?</b><br/>
+		Originally it involves a set of problem-solving skills that software engineers use to write programs and apps. You can break these skills down in smaller and more familiar components like pattern recognition, algorithm design, data analysis or abstraction. Computational thinking is used in more areas than just software, so it is very useful to get acquainted. Want to know more? Visit <a href='http://www.google.com/edu/computational-thinking/what-is-ct.html'>Computational Thinking</a>.
+		]]></description>
+		<website>
+		http://www.bebraschallenge.org/
+		</website>
+		<link>
+		http://www.bebraschallenge.org/
+		</link>
+	</opportunity>
 	<opportunity title="National STEM Video Game Challenge" posted="23 NOV 14" logo="http://www.stemchallenge.org/stem/generated/header-logo-stem.png">
 		<description ><![CDATA[
 		The National STEM Video Game Challenge, presented by the Smithsonian in partnership with the Joan Ganz Cooney Center and E-Line Media, opens for student submissions of original video games and game designs. The Challenge aims to motivate interest in Science, Technology, Engineering and Math (STEM) learning among youth by tapping into their natural passions for playing and making video games.<br/><br/>
