@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opportunities>
 	<opportunity title="BREAK" posted="2014 - 2015"></opportunity>
+	<opportunity title="Code NOW" posted="8 JAN 15" logo="http://codenow.org/wp-content/themes/codenow/img/navbar/CN_header_logo.gif">
+		<description ><![CDATA[
+			CodeNow makes learning about programming awesome with our weekend training. The course will be held at a local tech company, where you’ll learn about the programming language Ruby. Our goal is to help you understand how to program in a way that is exciting and interactive, giving you invaluable experience for your future
+			<br/><br/>
+			Workshops take place on Feb 7, 8 & 21 at a local tech company.  Students are taught to work together while building hands-on projects, and practice industry programming techniques. Each student receives 25 hours of training and a real understanding of what programming is.
+			<br/><br/>
+			Application Deadline:  Wednesday, Jan 21
+			]]></description>
+			<website>
+				http://codenow.org/
+			</website>
+			<link>
+				http://codenow.org/get-involved/
+			</link>
+	</opportunity>
 	<opportunity title="Hour of Code 2014" posted="08 DEC 14" logo="http://hourofcode.com/images/hour-of-code-logo.png">
 		<description ><![CDATA[
 		The Hour of Code is a global movement reaching tens of millions of students in 180+ countries during December 8-14, 2014, in celebration of Computer Science Education Week.  The Hour of Code is a one-hour introduction to computer science, designed to demystify code and show that anybody can learn the basics. <b> Ages 4 to 104.</b>
@@ -112,7 +127,7 @@
 	</opportunity>
 	<opportunity title="CodeDay New York" posted="10 OCT 14" logo="https://pbs.twimg.com/profile_images/378800000634893302/7d23af54986059cb8253c10f7fd00cc6.png">
 		<description ><![CDATA[
-		CodeDay is a 24-hour event where students passionate about technology get together and build cool things together! You pitch ideas, form teams, and build a cool app or game over 24 hours! We're constantly amazed by the results after CodeDay! 
+		CodeDay is a 24-hour event where students passionate about technology get together and build cool things together! You pitch ideas, form teams, and build a cool app or game over 24 hours! We're constantly amazed by the results after CodeDay!
 		<br/><br/>
 		CodeDay is from Nov 8 - 9 noon to noon at the <a href='http://www.wix.com/lounge/new-york'>Wix Lounge</a> in NYC.  Bring a laptop to work on! If you can, please bring a power strip.  We'll have food, including vegetarian options.  Cost is $20.
 		]]></description>
@@ -128,7 +143,7 @@
 		<description ><![CDATA[
 		What do Instagram, Snapchat and Twitter have in common? They were all created by people who knew how to code. Programming is a skill that gives you the ability to create and innovate. That’s what CodeNow is for! We introduce you to programming in a fun and interactive way.
 		<br/><br/>
-		Our workshops take place on Nov 8, 9 & 22 at a local tech company. During the workshop you’ll get to build fun interactive games and learn from top software engineers. If accepted, we’ll ask you to complete some puzzles and other fun activities in preparation for the workshop. After completing the workshop you’ll have a better understanding of what programming is. It will not be easy, but you’ll definitely have fun and learn a lot along the way. And we’ll provide you with all the tools and resources to get you on your way to become a great programmer. 
+		Our workshops take place on Nov 8, 9 & 22 at a local tech company. During the workshop you’ll get to build fun interactive games and learn from top software engineers. If accepted, we’ll ask you to complete some puzzles and other fun activities in preparation for the workshop. After completing the workshop you’ll have a better understanding of what programming is. It will not be easy, but you’ll definitely have fun and learn a lot along the way. And we’ll provide you with all the tools and resources to get you on your way to become a great programmer.
 		<br/><br/>
 		Application Deadline:  Wednesday, Oct 22
 		]]></description>
@@ -144,7 +159,7 @@
 		<description ><![CDATA[
 		Hosted at Syracuse University on Nov 9 - 10, 2014 in Upstate NY, the itGirls Overnight Retreat aims to expose high school women to the information science field of study. Each year, we invite about 100 high school juniors and seniors from across the nation just like YOU to come and learn more about technology, our school, and to meet other It Girls!
 		<br/><br/>
-		The It Girls Overnight Retreat is a two-day event loaded with fun! You will have a chance to experience a day in the life of an iSchool student, make new friends, interact with current It Girls at the iSchool who are on the verge of greatness, and network with industry leaders who are paving the way (and might one day want to hire you!). If YOU believe that you are an It Girl and would like to join us this year, applications are open now!  
+		The It Girls Overnight Retreat is a two-day event loaded with fun! You will have a chance to experience a day in the life of an iSchool student, make new friends, interact with current It Girls at the iSchool who are on the verge of greatness, and network with industry leaders who are paving the way (and might one day want to hire you!). If YOU believe that you are an It Girl and would like to join us this year, applications are open now!
 		]]></description>
 		<website>
 		http://ischool.syr.edu/ilife/womenintech/theitgirls
@@ -158,7 +173,7 @@
 		<description ><![CDATA[
 		HSCTF, High School Capture the Flag, is a national online hacking competition designed to educate high schoolers in computer science. Capture the Flag (CTF) competitions are traditionally targeted at college students or industry professionals. HSCTF is a CTF designed for younger students who might be interested in computer science.
 		<br/><br/>
-		Teams of up to 4 students can compete.  Competition requires only a computer with a modern web browser.  During the competition, different challenges are released which allow the participants to reverse engineer, break, hack, decrypt, and do whatever it takes to capture that flag. When a team submits a flag to the scoring page, they will get points.  
+		Teams of up to 4 students can compete.  Competition requires only a computer with a modern web browser.  During the competition, different challenges are released which allow the participants to reverse engineer, break, hack, decrypt, and do whatever it takes to capture that flag. When a team submits a flag to the scoring page, they will get points.
 		<br/><br/>
 		Competition runs from May 18th 10:00AM EST to May 25th 11:59PM EST
 		]]></description>
@@ -173,7 +188,7 @@
 		<description ><![CDATA[
 		CodeDay is a 24-hour event where students passionate about technology get together and build cool things together! You pitch ideas, form teams, and build a cool app or game over 24 hours!
 		<br/><br/>
-		We're constantly amazed by the results after CodeDay! For instance, Mohammad Adib created and published <a href="https://play.google.com/store/apps/details?id=mohammad.adib.sidebar.lite&hl=en" target="_blank">Sidebar</a>, an Android app with over 200,000 downloads at CodeDay!  
+		We're constantly amazed by the results after CodeDay! For instance, Mohammad Adib created and published <a href="https://play.google.com/store/apps/details?id=mohammad.adib.sidebar.lite&hl=en" target="_blank">Sidebar</a>, an Android app with over 200,000 downloads at CodeDay!
 		<br/><br/>
 		CodeDay is from May 24 to May 25 noon to noon at the Flatiron School in NYC.  Bring a laptop to work on! If you can, please bring a power strip.  We'll have food, including vegetarian options.  Students can receive 20% off if they use the promo code SCHOOL.
 		]]></description>
@@ -190,7 +205,7 @@
 		<br/><br/>
 		Presented by the Network for Teaching Entrepreneurship (NFTE), the New York City Economic Development Corporation (NYCEDC), and TreSensa, the Spring Break Game Jam aims to provide New York City high school students from under-resourced communities, the opportunity to learn about professional game development and to build related technical skills. With the support of volunteer mentors, each student team will create a mobile game that runs on the TreSensa Game Engine and a 3-min pitch presentation to showcase their work. At the end of the event, students will demo their games to judges from the tech community, and prizes will be awarded to the winning teams. We hope you can join us!
 		<br/><br/>
-		Please note that this a two-day event, taking place 9:00AM-8:00PM both Saturday, 4/12, and Sunday, 4/13. 
+		Please note that this a two-day event, taking place 9:00AM-8:00PM both Saturday, 4/12, and Sunday, 4/13.
 		]]></description>
 		<website>
 		http://nycgenerationtech.com/
@@ -250,12 +265,12 @@
 		</link>
 	</opportunity>
 	<opportunity title="Girls Who Code: Summer Immersion Program" posted="07 FEB 14" logo="http://girlswhocode.com/wp-content/uploads/2013/04/Press_GWC-Square-Logo.png">
-		
+
 		<description ><![CDATA[
 		Launched in Spring 2012, Girls Who Code is a national nonprofit organization working to close the gender gap in the technology and engineering sectors. With support from public and private partners, Girls Who Code works to educate, inspire, and equip high school girls with the skills and resources to pursue opportunities in computing fields.<br/><br/>
 
-The Girls Who Code Summer Immersion Program represents an innovative approach to computer science education, pairing seven weeks of intensive instruction in robotics, web design, and mobile development with engaging, career-focused mentorship and exposure led by the industry's top female entrepreneurs and engineers. 
- 
+The Girls Who Code Summer Immersion Program represents an innovative approach to computer science education, pairing seven weeks of intensive instruction in robotics, web design, and mobile development with engaging, career-focused mentorship and exposure led by the industry's top female entrepreneurs and engineers.
+
 		]]></description>
 		<website>
 		http://girlswhocode.com/programs/
@@ -268,7 +283,7 @@ The Girls Who Code Summer Immersion Program represents an innovative approach to
 		<description ><![CDATA[
 		GenTech Student Hackathon: Code4Tomorrow challenges students to identify ways to make a positive change in the communities in which they live and to think about solutions for big social problems related to health, education, employment, and seniors. With the support of volunteer mentors, students will create a digital prototype, promotional website, and demo presentation to showcase their idea. In the evening, all students will present, and prizes will be awarded to the winning teams. We hope you can join us!<br/><br/>
 		NYC Generation Tech (GenTech) student hackathons aim to provide NYC high school students from under-resourced communities the opportunity to develop their coding skills and work alongside professionals from NYC’s tech community.
- 
+
 		]]></description>
 		<website>
 		http://nycgenerationtech.com/
