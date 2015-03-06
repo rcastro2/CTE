@@ -10,7 +10,7 @@
 					display:block;
 					font-weight:bold;
 					font-size:1.25em;
-					padding:0.1em;				
+					padding:0.1em;
 					}
 			#main-div span{
 				display:inline-block;
@@ -40,7 +40,7 @@
 			border-bottom:1px solid #eeeeee;
 			}
 
-			#main-div link+a, #modal-close{
+			#main-div link+a, #modal-close, .link{
 				display:block;
 				width:80px;
 				font-weight:bold;
@@ -52,7 +52,7 @@
 				margin-top:10px;
 				padding:5px 0px 5px 0px;
 			}
-			#main-div link+a:hover, #modal-close{
+			#main-div link+a:hover, #modal-close:hover, .link:hover{
 				background-color:#00F;
 			}
 			#main-div gallery img{
@@ -75,7 +75,7 @@
 			.break {color:white;text-align:center;font-size:1.75em;
 				background: linear-gradient(#77c,#11a); text-shadow: 2px 2px #222;
 				font-weight:bold;padding:2px;margin:5px 5px 0px 5px}
-				
+
 			#modal-background {
 				display: none;
 				position: fixed;
@@ -113,11 +113,11 @@
 				display: block;
 			}​
 			</style>
-			
+
 
 		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
         <link type="text/css" href="css/dark-hive/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
-        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>   
+        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
 		<link href="css/ctecs.css" rel="stylesheet" />
 		<script src="js/ctecs.js"></script>
 </head>
@@ -126,12 +126,12 @@
 			$(document).ready(function(){
 					$("#menu").html(myMenu(3));
 					$("#main-div" ).load( "eventsData.htm" );
-					
+
 					$("#modal-close").click(function(){ $("#modal-content, #modal-background").toggleClass("active");});
-					
+
 			});
 			$(document).ajaxStop(function () {
-			
+
 					$("link+a").each(function (){  $(this).attr("target","_blank");	})
 					$( "img" ).click(function() {
 						var imgsrc;
@@ -148,7 +148,7 @@
 						}
 						$("#modal-content img").attr('src', imgsrc);
 						$("#modal-content, #modal-background").toggleClass("active");
-					});				
+					});
 			});
 </script>
 	<center>
@@ -158,19 +158,19 @@
 	<div id="tabs" style="border:#000">
 		<ul id="menu">
 		</ul>
-		
+
 		<div class="sample" id="main-div">
-			
+
 		</div>
 		<div style="color:#999;padding:5px;">Copyright &copy; 2013 Bayside High School Computer Programming CTE.  All rights reserved.</div>
-		 
+
 		</div>
-	
+
     </div>
     </center>
 	<div id="modal-background"></div>
 	<div id="modal-content">
 		<img src="" ><b id="modal-close" style="cursor:pointer">Close</b>
-	</div>​   
+	</div>​
 </body>
 </html>

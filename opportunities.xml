@@ -1,6 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opportunities>
 	<opportunity title="BREAK" posted="2014 - 2015"></opportunity>
+	<opportunity title="Summer Youth Employment Program" posted="6 MAR 15" logo="http://www.nyc.gov/html/dycd/images/buttons/2015_syep_graphic.png">
+		<description ><![CDATA[
+		The Summer Youth Employment Program (SYEP) provides New York City youth between the ages of 14 and 24 with paid summer employment for up to six weeks in July and August.  Participants work in a variety of entry-level jobs including:
+		<ol>
+			<li>Government Agencies, Hospitals</li>
+			<li>Non-Profits, Small Businesses, Law Firms</li>
+			<li>Museums, Sports Enterprises, Retail Organizations</li>
+		</ol>
+		SYEP also provides workshops on job readiness, career exploration, financial literacy and opportunities to continue education and social growth.
+		<br/><br/>
+		Application Deadline: April 10, 2015
+		]]></description>
+		<website>
+		http://www.nyc.gov/html/dycd/html/jobs/syep.shtml
+		</website>
+		<link>
+		https://worksitepreapp.nycsyep.com/Pages/SystemAccess/Default.aspx
+		</link>
+	</opportunity>
+	<opportunity title="Hk Maker Lab" posted="6 MAR 15" logo="http://hypothekids.org/wp-content/uploads/2014/02/Hk_logo_Blk_Sm138x139.jpg">
+		<description ><![CDATA[
+		The Hk Maker Lab is an intense six-week summer program to learn the foundations of design. Focusing on addressing a health problem, students work in teams to prototype and test a biomedical device and develop an associated business plan. The program culminates in a pitch to leading executives from the biomedical community. Winning projects might then be incubated using the state-of-the-art facilities at Harlem Biospace.
+		<br/><br/>
+		Program is in collaboration with Columbia University - The Fu Foundation School of Engineering and Applied Science.
+		<br/><br/>
+		Application Deadline: March 13, 2015
+		]]></description>
+		<website>
+		http://hypothekids.org/programs/hk-maker-lab/
+		</website>
+		<link>
+			http://hypothekids.org/programs/hk-maker-lab/hk-maker-lab-application-form/
+		</link>
+	</opportunity>
+	<opportunity title="Seidenberg Scholars Summer Experience 2015" posted="6 MAR 15" logo="images/resources/Pace.PNG">
+		<description ><![CDATA[
+		Pace University realizes you still have a year of high school left, but we also know you're capable of handling college-level material.  In community service collaborative sessions called design sprints, workshops and hackathons, we help you expand your already considerable knowledge of information technologies by showing you how to apply it to real-life situations. And because only 24 students participate, you can speak freely with Pace students, professors, and administrators.
+		<br/><br/>
+		The Summer Experience is renowned as a top tech program for gifted and talented students from across the country. Today, a computer science graduate can occupy an almost limitless number of roles, ranging from Internet security designer to digital artist.
+		<br/><br/>
+		Application Deadline: May 4, 2015
+		]]></description>
+		<website>
+			http://www.pace.edu/seidenberg/features-special-events/seidenberg-scholars-programs/summer-experience
+		</website>
+		<link>
+			http://www.pace.edu/seidenberg/features-special-events/seidenberg-scholars-programs/summer-experience/summer-experience-application
+		</link>
+	</opportunity>
+	<opportunity title="GenTech Summer Program" posted="6 MAR 15" logo="http://nycgenerationtech.com/wp-content/themes/NYCGT-Yasmin/2.0/img/logo_lg.jpg">
+		<description ><![CDATA[
+		In a two-week tech-entrepreneurship “bootcamp”, students learn the fundamentals of entrepreneurship; develop basic knowledge of HTML, CSS, and JavaScript; and form teams to develop a mobile app and business plan aimed at improving education or the quality of city life for NYC students.<br/><br/> Following the bootcamp, students will continue to develop their coding skills while building out their apps and business plan during weekly classroom sessions and twice-weekly evening mentoring sessions from July-August.
+		<br/><br/>
+		Priority Deadline: April 3, 2015<br/>
+		Extended Deadline: May 1, 2015
+		]]></description>
+		<website>
+		http://nycgenerationtech.com/
+		</website>
+		<link>
+		http://nycgenerationtech.com/apply/
+		</link>
+	</opportunity>
+	<opportunity title="ARISE" posted="25 FEB 15" logo="images/resources/NYU.PNG">
+		<description ><![CDATA[
+		NYU School of Engineering conducts the Applied Research Innovations in Science and Engineering (ARISE) program.  This selective program is for academically strong, current 10th and 11th grade New York City students with a demonstrated interest in science, technology, engineering and math (STEM).
+		<br/><br/>
+		This seven week program includes: college level workshops and seminars, a high level research experience in one of several <a href="http://arise.poly.edu/?page_id=20">NYU-Poly faculty labs</a>, and mentoring in that placement by a graduate or postdoctoral student.  In the seminars and workshops, students will be introduced to engineering concepts and principles, the scientific method and ethics, research practices and lab safety.
+		<br/><br/>
+		Application Due: March 2, 2015
+		]]></description>
+		<website>
+		http://arise.poly.edu/
+		</website>
+		<link>
+			http://arise.poly.edu/?page_id=84
+		</link>
+	</opportunity>
+	<opportunity title="Girls Who Code: Summer Immersion Program" posted="15 JAN 15" logo="http://girlswhocode.com/wp-content/uploads/2013/04/Press_GWC-Square-Logo.png">
+		<description ><![CDATA[
+			The Girls Who Code Summer Immersion Program represents an innovative approach to computer science education, pairing seven weeks of intensive instruction in robotics, web design, and mobile development with engaging, career-focused mentorship and exposure led by the industry's top female entrepreneurs and engineers.
+			<br/><br/>
+			We’re thrilled to have 13 program sites in New York City and 3 programs in Newark, sponsored and hosted by the following incredible companies: Accenture, AIG, AOL/CUNY Advanced Science Research Center, AppNexus, AT&T, Goldman Sachs, IAC, IBM, Microsoft, Twitter, and Viacom in New York, and Prudential and Verizon in Newark, New Jersey.
+			<br/><br/>
+			Application Deadline:  Thursday, February 12th at 11:59 PM EST
+			]]></description>
+			<website>
+				http://girlswhocode.com/
+			</website>
+			<link>
+				https://girlswhocode.fluidreview.com/
+			</link>
+	</opportunity>
+	<opportunity title="S.T.E.M. Robotics" posted="13 JAN 15" logo="http://www.york.cuny.edu/++theme++yorklook-4-0-white-6web/img/xyc-logo_01r.png.pagespeed.ic.TNZwguPOee.png">
+		<description ><![CDATA[
+			In an effort to introduce students to the various ways that science, technology, engineering and mathematics can be applied
+			to possible career opportunities, the York College Male Initiative Program, along with One Hundred Black Men, Inc., have teamed
+			up to offer a robotics program.  Program is open to all students regardless of race, gender, national origin or other characteristics.
+			<br/><br/>
+			Students receive instruction of various STEM disciplines using the Arduino platforms and briefly LEGO based platforms.
+			Program begins February 2nd, 2015.  Students will be expected to attend the program at York College for a minimum of 2 days per week, Monday
+			through Thursday from 4:00pm until 6:00pm.  Only 20 slots are available.
+			<br/><br/>
+			Apply Now: <a href="https://drive.google.com/file/d/0B2cyXDrUhmwdVjNuMmw4ZlRGeWs/view?usp=sharing">Link</a>
+			]]></description>
+			<website>
+				https://drive.google.com/file/d/0B2cyXDrUhmwdUEM5Mmtpc0FCMUE/view?usp=sharing
+			</website>
+			<link>
+				https://drive.google.com/file/d/0B2cyXDrUhmwdVjNuMmw4ZlRGeWs/view?usp=sharing
+			</link>
+	</opportunity>
 	<opportunity title="Code NOW" posted="8 JAN 15" logo="http://codenow.org/wp-content/themes/codenow/img/navbar/CN_header_logo.gif">
 		<description ><![CDATA[
 			CodeNow makes learning about programming awesome with our weekend training. The course will be held at a local tech company, where you’ll learn about the programming language Ruby. Our goal is to help you understand how to program in a way that is exciting and interactive, giving you invaluable experience for your future
