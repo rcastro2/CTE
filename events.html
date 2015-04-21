@@ -112,6 +112,7 @@
 			#modal-background.active, #modal-content.active {
 				display: block;
 			}​
+
 			</style>
 
 
@@ -130,10 +131,34 @@
 					$("#modal-close").click(function(){ $("#modal-content, #modal-background").toggleClass("active");});
 
 			});
+      var pic;
 			$(document).ajaxStop(function () {
 
 					$("link+a").each(function (){  $(this).attr("target","_blank");	})
+          $("#modal-content .arrows").click(function(){
+              var t = $(this).attr("type")
+              if(pic.next().attr('src') !== undefined && t == "next"){
+                pic = pic.next()
+              }else if( t == "next"){
+                pic = pic.parent().find("img").first()
+              }else if(pic.prev().attr('src') !== undefined && t == "prev"){
+                pic = pic.prev()
+              }else if( t == "prev"){
+                pic = pic.parent().find("img").last()
+              }
+
+              var imgsrc = (pic.attr('src').indexOf("_")!=-1)?"images/events/" + pic.attr('src').substring(pic.attr('src').indexOf("_")+1):pic.attr('src')
+              var img = new Image();
+              img.src = imgsrc;
+              img.onload = function() {
+                $("#modal-content").width(img.width);$("#modal-content").height(img.height+40);
+                $("#modal-content").css('top','25%');$("#modal-content").css('left','25%');
+              }
+              $("#modal-content img").attr('src', imgsrc);
+
+          })
 					$( "img" ).click(function() {
+            pic = $(this)
 						var imgsrc;
 						if($(this).attr('src').substring(0,4) == "http")
 							imgsrc = $(this).attr('src')
@@ -169,7 +194,7 @@
     </div>
     </center>
 	<div id="modal-background"></div>
-	<div id="modal-content">
+	<div id="modal-content"><div class="arrows" type="prev"><</div><div class="arrows next" type="next">></div>
 		<img src="" ><b id="modal-close" style="cursor:pointer">Close</b>
 	</div>​
 </body>

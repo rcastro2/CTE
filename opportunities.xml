@@ -1,6 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <opportunities>
 	<opportunity title="BREAK" posted="2014 - 2015"></opportunity>
+	<opportunity title="HSCTF: Hacking Competition" posted="17 APR 15" logo="http://hsctf.com/images/wires-mobile.png">
+		<description ><![CDATA[
+		HSCTF, High School Capture the Flag, is a national online hacking competition designed to educate high schoolers in computer science. Capture the Flag (CTF) competitions are traditionally targeted at college students or industry professionals. HSCTF is a CTF designed for younger students who might be interested in computer science.
+		<br/><br/>
+		Teams of up to 5 students can compete.  Competition requires only a computer with a modern web browser.  During the competition, different challenges are released which allow the participants to reverse engineer, break, hack, decrypt, and do whatever it takes to capture that flag. When a team submits a flag to the scoring page, they will get points.
+		<br/><br/>
+		Competition runs from May 17th 10:00AM EST to May 24th 11:59PM EST
+		]]></description>
+		<website>
+		http://hsctf.com/
+		</website>
+		<link>
+		http://hsctf.com/
+		</link>
+	</opportunity>
+	<opportunity title="Microsoft IoT Dev Camp" posted="17 APR 15" logo="images/events/MSDevCamp.jpg">
+		<description ><![CDATA[
+			The IoT camp will show how to use Microsoft's Azure services (specifically Event Hub, Streaming Analytics, and Web Sites) in the context of a full end-to-end IoT solution. The lab currently includes a sensor/gateway approach with low-cost Arduino devices as the sensor end-point, and Raspberry Pi as the gateway. A dummy Windows console gateway is provided for those who wish to focus solely on the Azure solution. <br/><br/>
+			Participants are also encouraged to bring their own devices to hack, and learn to connect to Azure.
+			At the end of the session, participants will have a good end-to-end understanding of a typical IoT solution.
+			Workshop is hosted on May 15, 2015 at <a href="https://maps.google.com/maps?q=11+Times+Square,+New+York,+NY&hl=en&hnear=11+Times+Square,+New+York,+10036&t=m&z=16" target="_blank">Microsoft</a>.
+ 			<br/><br/>
+Here’s a snapshot of the topics that will be covered. Instruction, demos, equipment and hands on labs will be provided in class.
+ 			<ul>
+         <li>IoT overview, architecture, MS platform</li>
+         <li>Event Hubs</li>
+         <li>Azure NRT</li>
+         <li>Devices (Arduino, Raspberry Pi, etc.)</li>
+			</ul>
+		Registration Deadline: ASAP. Seats are limited.
+		]]></description>
+		<website>
+			<![CDATA[https://msevents.microsoft.com/CUI/EventDetail.aspx?EventID=1032621039]]>
+		</website>
+		<link>
+			<![CDATA[https://msevents.microsoft.com/CUI/EventDetail.aspx?EventID=1032621039]]>
+		</link>
+	</opportunity>
+	<opportunity title="Code NOW" posted="14 APR 15" logo="http://codenow.org/wp-content/themes/codenow/img/navbar/CN_header_logo.gif">
+		<description ><![CDATA[
+			CodeNow makes learning about programming awesome with our weekend training. The course will be held at a local tech company, where you’ll learn about the programming language Ruby. Our goal is to help you understand how to program in a way that is exciting and interactive, giving you invaluable experience for your future
+			<br/><br/>
+			Workshops take place on May 16, 17 & 30 at a local tech company.  Students are taught to work together while building hands-on projects, and practice industry programming techniques. Each student receives 25 hours of training and a real understanding of what programming is.
+			<br/><br/>
+			Application Deadline:  29 April, 2015
+			]]></description>
+			<website>
+				http://codenow.org/
+			</website>
+			<link>
+				http://codenow.org/get-involved/
+			</link>
+	</opportunity>
+	<opportunity title="Google Code Jam 2015" posted="5 APR 15" logo="https://code.google.com/codejam/contest/static/logo_image2.gif">
+		<description ><![CDATA[
+			This year we're excited to announce the introduction of a brand new track within the Code Jam competition called Distributed Code Jam. Those of you who make it to Code Jam Round 3 can choose to participate in this new leg of the competition designed to challenge your distributed coding, latency reduction abilities, and of course, your algorithmic coding skills. For Distributed Code Jam we've added one new online round and one on-site final round made up of algorithmic puzzles similar to Code Jam, but in order to solve them you will need to write code for a distributed environment. If you compete in both, you could attend the finals in Seattle, Washington and win both Code Jam and Distributed Code Jam.
+		<br/><br/>
+		Registration Deadline: April 10, 2015
+		]]></description>
+		<website>
+			https://code.google.com/codejam/
+		</website>
+		<link>
+			https://code.google.com/codejam/contest/registration
+		</link>
+	</opportunity>
+	<opportunity title="Make School Summer Academy" posted="9 MAR 15" logo="https://cdn.makeschool.com/assets/main/home_hero_icon2-89c9eb7e04eac93434237100dd960447.svg">
+		<description ><![CDATA[
+		The Make School Summer Academy is designed to teach product development to high school and college students passionate about technology. Expand your knowledge of programming and ship your own original app to the App Store.<br/><br/>
+		You’ll spend 3 weeks learning Swift by cloning successful apps and solving programming challenges. You'll spend 5 weeks learning about the product development process by building your own app. You’ll hear talks from industry experts and get a close look into the professional world.
+		<br/><br/>
+		Application Deadline: April 30, 2015
+		]]></description>
+		<website>
+			https://www.makeschool.com
+		</website>
+		<link>
+			https://www.makeschool.com/summer-academy
+		</link>
+	</opportunity>
 	<opportunity title="Summer Youth Employment Program" posted="6 MAR 15" logo="http://www.nyc.gov/html/dycd/images/buttons/2015_syep_graphic.png">
 		<description ><![CDATA[
 		The Summer Youth Employment Program (SYEP) provides New York City youth between the ages of 14 and 24 with paid summer employment for up to six weeks in July and August.  Participants work in a variety of entry-level jobs including:
