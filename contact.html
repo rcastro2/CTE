@@ -5,13 +5,13 @@
 
 		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
         <link type="text/css" href="css/dark-hive/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
-        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script> 
+        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
 		<link href="css/ctecs.css" rel="stylesheet" />
 		<script src="js/ctecs.js"></script>
 
         <script type="text/javascript">
 			$(document).ready(function(){
-				$("#menu").html(myMenu(5));
+				$("#menu").html(myMenu(6));
 			})
             $(function(){
                 // Tabs
@@ -19,11 +19,11 @@
                     autoOpen: false,
                     draggable: false,
                     modal: true,
-                    close: function(event, ui) { document.body.style.overflow = 'visible'; }		
+                    close: function(event, ui) { document.body.style.overflow = 'visible'; }
                 });
-        
+
             });
-                
+
         </script>
       <style type="text/css">
 		.sample{margin-top:5px;background: #000000 url(images/bk.png);padding:10px;width:950px;}
@@ -44,12 +44,12 @@
 			.links a{text-decoration:none;color:blue;}
 			.links a:hover{text-decoration:none;color:#FFAA22;}
       </style>
-      
+
 </head>
 <body style="background-color:#222">
 	<center>
 	<div style="width:1000px;">
-	<div style="border-top-left-radius: 20px;border-top-right-radius: 20px;margin-left:10px;width:970px;border:thick #000 outset;background-image:url(images/zertxtr3.gif);float:left;text-align:left;">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
+	<div id="pagebanner">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
 
 	<div id="tabs" style="border:#000">
 		<ul id="menu">
@@ -65,31 +65,31 @@
                   </td>
                   <td>
                   		<div id="dirtab">
-                      <h3>Message from Director</h3>    
+                      <h3>Message from Director</h3>
                       <div class="msg">
                         <img src="images/me.jpg" >
 						<span id="desc">Computer programming offers a unique way to be creative, to be an innovator.<br/><br/> If you've ever provided instructions, made a decision, repeated a process you might be a programmer!<hr/>
 						<a href="https://github.com/rcastro2" target="_blank"><img src="http://1.bp.blogspot.com/-rCzX4GamWsI/UnRHBbrC38I/AAAAAAAABTc/1Ox4jxS_jTA/s1600/github_badge_sm.png" style="height:30px"/></a>
 						<a href="https://www.linkedin.com/pub/castro-26q495/98/261/408" target="_blank"><img src="http://findicons.com/files/icons/819/social_me/64/linkedin.png" style="height:30px"/></a>
 						</span>
-						
+
                       </div>
-                      <div class="bottomdiv" >&nbsp;</div>                     
+                      <div class="bottomdiv" >&nbsp;</div>
                        <h3 class="b1" >Contact</h3>
                       <div><hr/>
                         <b>Renne Castro</b>  <i>CTE Computer Programming Director</i> rcastro2@schools.nyc.gov<br/><br/>
 						<b>Melissa Haroutunian</b>  <i>CTE Bayside High School Director</i> mharoutunian@schools.nyc.gov<br/><br/>
 						<b>Madeline Belfi Galvin</b>  <i>AP Mathematics & Computer Science</i> mbelfi@schools.nyc.gov
-						
-                      </div><div class="bottomdiv">&nbsp;</div> 
+
+                      </div><div class="bottomdiv">&nbsp;</div>
                       <h3 class="b1" >Links</h3>
-                    
+
                       <div class="links"><hr/>
                         <a href="http://www.baysidehighschool.org" target="_blank">Bayside High School</a><br/>
 						<a href="http://schools.nyc.gov/OA/SchoolReports/2012-13/Progress_Report_Overview_2013_HS_Q495.pdf" target="_blank">Progress Report</a><br/>
 						<a href="https://csta.acm.org/Curriculum/sub/K12Standards.html" target="_blank">Computer Science Teacher Association</a><br/>
-						
-                      </div><div class="bottomdiv">&nbsp;</div> 
+
+                      </div><div class="bottomdiv">&nbsp;</div>
                       </div>
                     <script>
 						$(".b1").each(function(index){
@@ -99,7 +99,7 @@
                           $(this).next().slideToggle("slow");
                         });
                     </script>
-				 
+
                   </td>
                   </tr>
                   </table>
@@ -107,10 +107,10 @@
                   <div style="color:#999;padding:5px;">Copyright &copy; 2013 Bayside High School Computer Programming CTE.  All rights reserved.</div>
             </div>
 		</div>
-	
+
     </div>
     </center>
-    
+
         <div id="dialog" title="Download complete"></div>
 </body>
 </html>

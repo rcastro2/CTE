@@ -1,6 +1,63 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <opportunities>
 	<opportunity title="BREAK" posted="2014 - 2015"></opportunity>
+	<opportunity title="C4Q: Internship Opportunities for Summer 2015" posted="30 APR 15" logo="http://static1.squarespace.com/static/528cfee3e4b0c3afb632d2fc/t/5482537ae4b0b30bd821d649/1429573811965/?format=1500w">
+		<description ><![CDATA[
+			C4Q is transforming the tech industry by empowering underserved, low-income, and underrepresented communities with skills, networks, and opportunity. We believe that creating a more inclusive tech community with a diversity of backgrounds, cultures, and experiences will strengthen the industry and fuel the growth of local Queens and NYC tech companies. Despite the incredible promise of the tech sector as a vehicle to the middle class, significant barriers to entry engender a lack of access to these growing opportunities.
+			<br/><br/>
+			Work with us this summer to help us build the most inclusive tech community.  Internship opportunities available in:
+			<ul>
+				<li><a href="http://www.c4q.nyc/intern-education">Education Programs Intern</a></li>
+				<li><a href="http://www.c4q.nyc/intern-design">Design Intern</a></li>
+				<li><a href="http://www.c4q.nyc/intern-policy">Policy &amp; Advocacy Intern</a></li>
+				<li><a href="http://www.c4q.nyc/intern-fundraising">Fundraising &amp; Development Intern</a></li>
+				<li><a href="http://www.c4q.nyc/intern-events">Events Intern</a></li>
+				<li><a href="/intern-technical">Technical Intern</a></li>
+			</ul>
+		]]></description>
+		<website>
+			http://www.c4q.nyc/
+		</website>
+		<link>
+			http://www.c4q.nyc/internship-opportunities/
+		</link>
+	</opportunity>
+	<opportunity title="C4Q: Access 2.0" posted="30 APR 15" logo="http://static1.squarespace.com/static/528cfee3e4b0c3afb632d2fc/t/5482537ae4b0b30bd821d649/1429573811965/?format=1500w">
+		<description ><![CDATA[
+			Access Code equips talented adults from underserved and underrepresented backgrounds with the computer programming skills and entrepreneurial training to launch careers in the tech industry. We are building new pathways to tech for diverse and low-income communities, and in particular empowering the 65% of New Yorkers that do not have college degrees.
+			<br/><br/>
+			This intensive 9-month part-time program in mobile app development prepares participants with no prior coding experience for entry-level developer jobs at the hundreds of innovative startups and tech companies (such as Google and Facebook) that are looking to hire the next generation of talent. These positions are in high demand with well-paid salaries averaging $85,619 across the industry—the first Access Code 1.0 program helped increase graduate average income from $26,000 to $73,000.
+			<br/><br/>
+			With our mission to expand access to tech opportunities, all students will receive full scholarships to Access Code.
+		]]></description>
+		<website>
+			http://www.c4q.nyc/
+		</website>
+		<link>
+			http://www.c4q.nyc/access-code-apply
+		</link>
+	</opportunity>
+	<opportunity title="Imagine Cup: Break Into Code" posted="24 APR 15" logo="images/resources/ImagineCup.PNG">
+		<description ><![CDATA[
+			Microsoft Imagine introduces the Break Into Code challenge as a beginner level challenge that will get you excited about coding even if you don’t have any previous experience. We’ve teamed up with Microsoft Research’s <a href='https://www.touchdevelop.com/'>TouchDevelop</a> to get students of all ages started with a simple, easy to follow tutorial on coding a brick breaker game.<br/><br/> The tutorial will get you started from a blank slate to a working game which you can then personalize and reinvent to make it your own. You can use any device with a browser and internet connection to participate.
+		<br/>
+		<ul>
+		<li><i>Who can compete?</i> &nbsp; Students 9-18 years old worldwide</li>
+		<li><i>What's the team size?</i> &nbsp; Individual Challenge</li>
+		<li><i>When's the deadline?</i> &nbsp; Contest runs to June 7th</li>
+		<li><i>What can you win?</i><br/>
+			<ol><li>Ages 9-13: $3000 for 1st, $2000 for 2nd, $1000 for 3rd</li>
+ 					<li>Ages 14-18: $3000 for 1st, $2000 for 2nd, $1000 for 3rd</li>
+			</ol></li>
+		<ul>
+		]]></description>
+		<website>
+			https://www.imaginecup.com/breakintocode
+		</website>
+		<link>
+			http://www.imaginecup.com/competition/signup/17294
+		</link>
+	</opportunity>
 	<opportunity title="HSCTF: Hacking Competition" posted="17 APR 15" logo="http://hsctf.com/images/wires-mobile.png">
 		<description ><![CDATA[
 		HSCTF, High School Capture the Flag, is a national online hacking competition designed to educate high schoolers in computer science. Capture the Flag (CTF) competitions are traditionally targeted at college students or industry professionals. HSCTF is a CTF designed for younger students who might be interested in computer science.

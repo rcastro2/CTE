@@ -12,17 +12,17 @@
 
 		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
         <link type="text/css" href="css/dark-hive/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
-        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script> 
+        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
 		<link href="css/ctecs.css" rel="stylesheet" />
 		<script src="js/ctecs.js"></script>
     </head>
 <body style="background-color:#222">
 <script type="text/javascript">
 			$(document).ready(function(){
-				$("#menu").html(myMenu(4));
+				$("#menu").html(myMenu(5));
 				$.getJSON("resources.js",
-				
-				
+
+
 				function(result){
 					var build = new Array("");
 					var tmp;
@@ -37,18 +37,18 @@
 					}
 					$("#resourcesDiv").append(build.join(''));
 				});
-				
-				
-				
-				
+
+
+
+
 			});
 			$(document).ajaxStop(function () {
-					$(".logo").hover(function(){$(this).addClass("highlighted");}, function (){ $(this).removeClass("highlighted") });				
+					$(".logo").hover(function(){$(this).addClass("highlighted");}, function (){ $(this).removeClass("highlighted") });
 			});
 </script>
 	<center>
 	<div style="width:1000px;">
-	<div style="border-top-left-radius: 20px;border-top-right-radius: 20px;margin-left:10px;width:970px;border:thick #000 outset;background-image:url(images/zertxtr3.gif);float:left;text-align:left;">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
+	<div id="pagebanner">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
 
 	<div id="tabs" style="border:#000">
 		<ul id="menu">
@@ -56,15 +56,15 @@
 		</ul>
 			<div id="tabs-1">
                   <div id="resourcesDiv">
-                        
+
                   </div>
                   <div style="color:#999;padding:5px;">Copyright &copy; 2013 Bayside High School Computer Programming CTE.  All rights reserved.</div>
             </div>
 		</div>
-	
+
     </div>
     </center>
-    
+
         <div id="dialog" title="Download complete"></div>
 </body>
 </html>

@@ -3,14 +3,14 @@
 <head>
         <title>CTE Computer Programming @ Bayside High School</title>
         <style>
-			#main-div div{	background-color:white;	margin-bottom:20px;}
+			#main-div div{	background-color:white;	/*margin-bottom:20px;*/}
 			#main-div header{
 					background-color:black;
 					color:white;
 					display:block;
 					font-weight:bold;
-					font-size:1.25em;
-					padding:0.1em;
+					font-size:1.5em;
+					padding:10px;
 					}
 			#main-div span{
 				display:inline-block;
@@ -74,7 +74,7 @@
 
 			.break {color:white;text-align:center;font-size:1.75em;
 				background: linear-gradient(#77c,#11a); text-shadow: 2px 2px #222;
-				font-weight:bold;padding:2px;margin:5px 5px 0px 5px}
+        font-weight:bold;padding:2px;margin:0;width:976px;}
 
 			#modal-background {
 				display: none;
@@ -125,7 +125,7 @@
 <body style="background-color:#222;color:#222;" >
 <script type="text/javascript">
 			$(document).ready(function(){
-					$("#menu").html(myMenu(3));
+					$("#menu").html(myMenu(4));
 					$("#main-div" ).load( "eventsData.htm" );
 
 					$("#modal-close").click(function(){ $("#modal-content, #modal-background").toggleClass("active");});
@@ -178,7 +178,7 @@
 </script>
 	<center>
 	<div style="width:1000px;">
-	<div style="border-top-left-radius: 20px;border-top-right-radius: 20px;margin-left:10px;width:970px;border:thick #000 outset;background-image:url(images/zertxtr3.gif);float:left;text-align:left;">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
+	<div id="pagebanner">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
 
 	<div id="tabs" style="border:#000">
 		<ul id="menu">

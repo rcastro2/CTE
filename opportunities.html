@@ -5,13 +5,13 @@
 
 		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
         <link type="text/css" href="css/dark-hive/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
-        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script> 
+        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
 		<link href="css/ctecs.css" rel="stylesheet" />
 		<script src="js/ctecs.js"></script>
 
         <script type="text/javascript">
 			$(document).ready(function(){
-				$("#menu").html(myMenu(2));
+				$("#menu").html(myMenu(3));
 				$.ajax({
 					type: "GET",
 					url: "opportunities.xml",
@@ -19,10 +19,10 @@
 					success: function(xml) {
 						var output = "";
 						$(xml).find('opportunity').each(function(){
-							
+
 							var title = $(this).attr('title');
 							var posted = $(this).attr('posted');
-							
+
 							if(title == "BREAK")
 									output += "<div class='break'>" + posted + "</div>"
 							else{
@@ -46,11 +46,11 @@
                     autoOpen: false,
                     draggable: false,
                     modal: true,
-                    close: function(event, ui) { document.body.style.overflow = 'visible'; }		
+                    close: function(event, ui) { document.body.style.overflow = 'visible'; }
                 });
-        
+
             });
-                
+
         </script>
 		<style>
 		.opportunity{text-align:left;background-color:white; }
@@ -61,29 +61,29 @@
 		.posted{background-color:gray;color:white;font-style:italic;padding:5px 0px 5px 10px;}
 		.break {color:white;text-align:center;font-size:1.75em;
 				background: linear-gradient(#77c,#11a); text-shadow: 2px 2px #222;
-				font-weight:bold;padding:2px;margin:5px 5px 0px 5px}
+				font-weight:bold;padding:2px;margin:0;width:976px;}
 		</style>
-      
+
 </head>
 <body style="background-color:#222">
 	<center>
 	<div style="width:1000px;">
-	<div style="border-top-left-radius: 20px;border-top-right-radius: 20px;margin-left:10px;width:970px;border:thick #000 outset;background-image:url(images/zertxtr3.gif);float:left;text-align:left;">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
+	<div id="pagebanner">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
 
 	<div id="tabs" style="border:#000">
 		<ul id="menu">
 
 		</ul>
-		
+
         <div id="main-div" class="sample">
-            
+
         </div>
         <div style="color:#999;padding:5px;">Copyright &copy; 2013 Bayside High School Computer Programming CTE.  All rights reserved.</div>
 
 		</div>
     </div>
     </center>
-    
+
         <div id="dialog" title="Download complete"></div>
 </body>
 </html>
