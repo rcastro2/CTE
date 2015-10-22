@@ -1,22 +1,6 @@
 {
 	"resources":[
 		{
-			"site": "Programming Tools",
-			"image": "bhscte.jpg",
-			"level": "1",
-			"link": "",
-			"description":"Bayside High School Career and Technical Education in Computer Programming uses various tools to educate and inspire students into advance education and careers in computer science.",
-			"sublink" : [
-					{"topic":"Python","link":"http://www.python.org/getit/","type":"programming"},
-					{"topic":"MIT App Inventor","link":"http://appinventor.mit.edu/explore/get-started.html","type":"programming"},
-					{"topic":"Visual Studio Express","link":"http://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx","type":"programming"},
-					{"topic":"Java","link":"http://java.com/en/download/index.jsp","type":"programming"},
-					{"topic":"Android SDK","link":"https://developer.android.com/sdk/index.html","type":"mobile app"},
-					{"topic":"jQuery","link":"http://jquery.com/","type":"web development"},
-					{"topic":"NotePad","link":"http://notepad-plus-plus.org/","type":"editor"}
-			]
-		},
-		{
 			"site": "Code.org",
 			"image": "codeorg.jpg",
 			"level": "1",
@@ -69,7 +53,7 @@
 			"link": "http://www.appinventor.org/",
 			"description":"David Wolber, Professor of Computer Science at the University of San Francisco designed appinventor.org to introduce non-CS majors to computing using MIT App Inventor, cloud based tool for creating mobile apps for Android devices.  appinventor.org provides project based tutorials that incrementally increase in depth and scope.  Great tool for all levels of programming experience.",
 			"sublink" : [
-			
+
 			]
 		},
 		{
@@ -78,7 +62,7 @@
 			"link": "http://interactivepython.org/runestone/static/thinkcspy/toc.html#t-o-c",
 			"description":"'How To Think Like a Computer Scientist' is comparable to an introductory textbook in computer science with the added enhancements of embedded assessments, live code to practice topics, videos and end of chapter exercise.  Site uses Python to deliver content.",
 			"sublink" : [
-			
+
 			]
 		},
 		{
@@ -87,7 +71,7 @@
 			"link": "http://programarcadegames.com/",
 			"description":"'Program Arcade Games' uses the allure of video games to introduce computer science concepts.  Site is organized into chapters that incrementally build on each other and includes examples, quizzes, videos, labs, worksheets, test and tracks your progress.  Site uses Python and pyGame to deliver content.",
 			"sublink" : [
-			
+
 			]
 		},
 		{
@@ -117,5 +101,5 @@
 			]
 		}
 		]
-	
+
 }

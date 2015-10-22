@@ -4,79 +4,81 @@
         <meta charset="utf-8" />
         <title>CTE Computer Programming @ Bayside High School</title>
 
-		<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    		<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
         <link type="text/css" href="css/jquery-ui.css" rel="stylesheet" />
         <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-		<link href="css/ctecs.css" rel="stylesheet" />
-		<script src="js/ctecs.js"></script>
+
+        <link href="css/ctecs.css" rel="stylesheet" />
+    		<script src="js/ctecs.js"></script>
+
         <link href="css/liteaccordion.css" rel="stylesheet" />
-        <script src="js/jquery.easing.1.3.js"></script>
         <script src="js/liteaccordion.jquery.js"></script>
+
+        <script src="js/jquery.easing.1.3.js"></script>
+
         <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-
         <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    </head>
-<body style="background-color:#222">
-		 <script type="text/javascript">
-			$(document).ready(function(){
-				$("#menu").html(myMenu(1));
-        $(".cte-slideshow").slick( {
-            dots:true,
-            autoplay: true,
-            autoplaySpeed: 5000,
-            arrows:true,
-            speed:1000,
-            infinite: true,
-            fade: true,
-            cssEase: 'linear'
-          });
-			})
-            $(function(){
-
-                $( "#dialog" ).dialog({
-                    autoOpen: false,
-                    draggable: false,
-                    modal: true,
-                    close: function(event, ui) { }
-                });
-            });
-            function loadwindow(choice, w, h, t) {
-                var messages = [$('#CourseSequence').html(),$('#SalarySummary').html(),$('#LaborStats').html()];
-                $('#dialog').html(messages[choice]); $('#dialog').dialog("option", "width", w); $('#dialog').dialog("option", "height", h);
-                $('#dialog').dialog('option', 'title', t); $('#dialog').dialog('open');
-            }
-        </script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
-	<center>
-	<div style="width:1000px;margin-top:10px;">
-	<div style="border-top-left-radius: 20px;border-top-right-radius: 20px;margin-left:10px;width:970px;border:thick #aaa outset;background-image:url(../images/zertxtr3.gif);float:left;text-align:left;">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
 
-	<div id="tabs" style="border:#000;">
-		<ul id="menu">
+        <script type="text/javascript">
+           $(document).ready(function(){
+             $("#menu").html(myMenu(1));
+             $(".cte-slideshow").slick( {
+                 dots:true,
+                 autoplay: true,
+                 autoplaySpeed: 15000,
+                 arrows:false,
+                 speed:2000,
+                 infinite: true,
+                 fade: true,
+                 cssEase: 'linear'
+               });
+               $( "#dialog" ).dialog({
+                   autoOpen: false,
+                   draggable: false,
+                   modal: true,
+                   close: function(event, ui) { }
+               });
+           })
 
-		</ul>
-    
-    <!-- Carousel================================================== -->
-    <div class="cte-slideshow" style="width:94%;padding-top:10px">
-      <div><img src="images\events\WomenInCSConference3@NYU.jpg">Mentoring students to discover their own passions</div>
-      <div><img src="images\events\2015TechDay10@Pier92.jpg">Witness innovatve uses of the skills acquired through professional events such as Engadget Expand and Tech Day.</div>
-      <div><img src="images\events\2014YHLocalHack4@GA.jpg">Competition</div>
-      <div><img src="images\events\2014CSPanel5@BHS.jpg">Alumni</div>
-      <div><img src="images\events\2015YER11@BHS.jpg">Mentor</div>
-    </div><!-- /.carousel -->
+           function loadwindow(choice, w, h, t) {
+               var messages = [$('#CourseSequence').html(),$('#SalarySummary').html(),$('#LaborStats').html()];
+               $('#dialog').html(messages[choice]); $('#dialog').dialog("option", "width", w); $('#dialog').dialog("option", "height", h);
+               $('#dialog').dialog('option', 'title', t); $('#dialog').dialog('open');
+           }
+         </script>
+    </head>
+    <body style="background-color:#222">
+
+    	<center>
+    	<div style="width:1000px;">
+    	<div id="pagebanner">&nbsp;<img src="images/logon.png" /><img src="images/title.png" /></div>
+
+    	<div id="tabs" style="border:#000;">
+    		<ul id="menu">
+
+    		</ul>
+
+        <!-- Carousel================================================== -->
+        <div class="cte-slideshow">
+          <div><img src="images\events\WomenInCSConference3@NYU.jpg"><div><h1>Academics</h1><span>In collaboration with industry professionals and university partners, students receive an education that is both career focused and prepares for post-secondary education in computer science and STEM related fields.</span></div></div>
+          <div><img src="images\events\2015TechDay10@Pier92.jpg"><div><h1>Careers</h1><span>Students witness skills they are learning through professional events<br/>&bull; Engadget Expand<br/>&bull; Tech Day @ Pier 92<br/><br/> and site visits to industry companies<br/>&bull; Verizon<br/>&bull; Fog Creek<br/>&bull;MongoDB</span></div></div>
+          <div><img src="images\events\2014YHLocalHack4@GA.jpg"><div><h1>Experiences</h1><span>Through competitons, mentorships and internships, students take ownership of their education and gain confidence in the skills they have and can acquire.<br/><br/><a href="https://picoctf.com/" target="_blank">picoCTF</a><br/><a href="http://www.eventbrite.com/e/gentech-student-hackathon-hacked-nyc-tickets-15523283559" target="_blank"> Code 4 Tomorrow</a><br/><a href="http://nycgenerationtech.com/" target="_blank"> NYC Generation Tech Summer Program</a><br/><a href="https://www.daniweb.com/danipad" target="_blank">Internship @ DaniPad</a></span></div></div>
+          <!--<div><img src="images\events\2015YER11@BHS.jpg">Mentor</div>-->
+        </div><!-- /.carousel -->
 
         <div id="three">
             <ol>
                 <li data-slide-name="slide-one">
                     <h2><span>Overview</span></h2>
                     <div>
-						  Career & Technical Education (CTE) in Computer Programming at Bayside High School provides a rigorous academic course of study which prepares students for post-secondary education and careers in computer programming.
-						  <div style="padding:20px">
-						  &bull;&nbsp;&nbsp; Students develop a strong foundation in programming concepts and gain practical experience programming in several languages.
-						  <br/>&bull;&nbsp;&nbsp; Students acquire the confidence to use their  existing knowledge and apply it to learning advance programming concepts, new  programming languages or new technologies and techniques.
-						  <br/>&bull;&nbsp;&nbsp; Students earn college credits and are motivated  to continue their education in computer programming.
-						  <br/>&bull;&nbsp;&nbsp; Students observe first hand careers in computer  programming and participate in work based experiences.
-						  </div>
+      						  Career & Technical Education (CTE) in Computer Programming at Bayside High School provides a rigorous academic course of study which prepares students for post-secondary education and careers in computer programming.
+      						  <div style="padding:20px">
+      						  &bull;&nbsp;&nbsp; Students develop a strong foundation in programming concepts and gain practical experience programming in several languages.
+      						  <br/>&bull;&nbsp;&nbsp; Students acquire the confidence to use their  existing knowledge and apply it to learning advance programming concepts, new  programming languages or new technologies and techniques.
+      						  <br/>&bull;&nbsp;&nbsp; Students earn college credits and are motivated  to continue their education in computer programming.
+      						  <br/>&bull;&nbsp;&nbsp; Students observe first hand careers in computer  programming and participate in work based experiences.
+      						  </div>
                     </div>
                 </li>
                 <li data-slide-name="slide-two">
@@ -176,9 +178,8 @@ According to the <b>National Association of Colleges and Employers</b> (NACE), c
 
     <td>DISCIPLINE</td>
 
+    <td><center>2015</center></td>
     <td><center>2013</center></td>
-
-    <td><center>2012</center></td>
 
   </tr>
 
@@ -186,19 +187,18 @@ According to the <b>National Association of Colleges and Employers</b> (NACE), c
 
     <td>Business</td>
 
+    <td align='right'>$51,508 </td>
     <td align='right'>$55,635 </td>
 
-    <td align='right'>$51,541 </td>
+
 
   </tr>
 
   <tr>
 
     <td>Communications</td>
-
+    <td align='right'>$49,395 </td>
     <td align='right'>$43,835 </td>
-
-    <td align='right'>$42,286 </td>
 
   </tr>
 
@@ -206,70 +206,71 @@ According to the <b>National Association of Colleges and Employers</b> (NACE), c
 
     <td ><b style='color:green'>&#10003 &nbsp;</b>Computer    Science</td>
 
+    <td align='right'>$61,287 </td>
     <td align='right'>$58,547 </td>
 
-    <td align='right'>$60,038 </td>
+
 
   </tr>
 
   <tr>
 
-    <td>Education</td>
+    <td>Humanities</td>
 
+    <td align='right'>$45,042 </td>
     <td align='right'>$40,337 </td>
 
-    <td align='right'>$39,080 </td>
+
 
   </tr>
 
   <tr style='background-color:#FAF8CC;'>
 
     <td><b style='color:green'>&#10003 &nbsp;</b>Engineering</td>
-
+    <td align='right'>$62,998 </td>
     <td align='right'>$62,062 </td>
-
-    <td align='right'>$60,639 </td>
 
   </tr>
 
   <tr>
 
     <td>Humanities    &amp; Social Sciences</td>
-
+    <td align='right'>$49,047 </td>
     <td align='right'>$37,791 </td>
-
-    <td align='right'>$36,824 </td>
 
   </tr>
 
   <tr>
 
     <td>Math &amp;    Sciences</td>
-
+    <td align='right'>$56,171 </td>
     <td align='right'>$42,731 </td>
-
-    <td align='right'>$42,355 </td>
 
   </tr>
 
   <tr>
 
     <td>Overall</td>
-
+    <td align='right'>$49,047 </td>
     <td align='right'>$45,327 </td>
 
-    <td align='right'>$44,259 </td>
+
 
   </tr>
 
   <tr>
 
-    <td colspan='3' style='text-align:right;font-size:10pt;'><a style="color:#00F;" target='_blank' href='http://www.naceweb.org/uploadedFiles/Content/static-assets/downloads/executive-summary/2013-september-salary-survey-executive-summary.pdf'>September 2013 Salary Survey - Executive Summary</a></td>
+    <td colspan='3' style='text-align:right;font-size:10pt;'>
+      <a style="color:#00F;" target='_blank' href='http://www.naceweb.org/uploadedFiles/Content/static-assets/downloads/executive-summary/2013-september-salary-survey-executive-summary.pdf'>September 2013 Salary Survey - Executive Summary</a>
+      <a style="color:#00F;" target='_blank' href='https://www.naceweb.org/uploadedFiles/Content/static-assets/downloads/executive-summary/2015-january-salary-survey-executive-summary.pdf'>January 2015 Salary Survey - Executive Summary</a>
+    </td>
 
   </tr>
 
 </table><br/>
-&#9734; One factor contributing to the decrease in <b>Computer Science</b> salaries is the type of positions that were reported for these graduates compared to those of the previous year.<br/><br/>&#9733; Students majoring specifically in <b>Computer Science</b> saw an increase of 3.1 percent, bringing their average starting salary to <b>$64,100</b>.
+&#9734; Specific computer science majors have an average projected salary of $62,377, employers
+in the information industry anticipate paying an overall average salary that is more than $10,000 higher at
+$72,761.<br/><br/>
 </div>
 <div id="CourseSequence" style="visibility:hidden;position:absolute;top:0;left:-1000">
 <img src=images/courses.png /><br/><b style='font-size:16px'>&bull;&nbsp;&nbsp;</b>&nbsp;Potential College Credit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:#f00'><b style='font-size:16px'>&bull;&nbsp;&nbsp;</b></span>&nbsp;Potential Advanced Placement Course

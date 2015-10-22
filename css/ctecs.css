@@ -12,8 +12,10 @@ border-top-left-radius: 20px;border-top-right-radius: 20px;margin-left:10px;widt
 #tabs{width:980px;border-top-left-radius: 20px;border-top-right-radius: 20px;background-color:#aaa;/*background-image:url('../images/bk.png');*/}
 #main-div{background-color:#aaa;/*background-image:url('../images/bk.png');*/}
 #dialog {font-size:10pt;}
-.cte-slideshow img{height:300px; float:left;}
-.cte-slideshow{background-color:gray;padding:10px;box-shadow:5px 5px 5px black}
+.cte-slideshow img{height:300px; float:left;display:inline-block;margin-right:10px;border:thick #666 inset;}
+.cte-slideshow h1{font-family:"Arial Black", Gadget, sans-serif;color:#FFAA22;text-shadow:2px 2px #000;}
+.cte-slideshow span{font-size:14pt;letter-spacing: 1px;}
+.cte-slideshow{background-image:url(../images/zertxtr3.gif);border-radius:10px;padding:10px;box-shadow:5px 5px 5px black;width:94%;padding-top:10px;border:thick #666 outset !important;}
 .myLink {color:#22a !important;text-shadow: 2px 2px #ccc !important;}
 
 strong + p { margin-top: 0 }

@@ -1,5 +1,130 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <opportunities>
+	<opportunity title="BREAK" posted="2015 - 2016"></opportunity>
+	<opportunity title="TNW Hack Battle" posted="22 Oct 15" logo="images/resources/TNW.jpg">
+		<description ><![CDATA[
+			The TNW Hack Battle is back! We’re once again bringing together the best developers, designers and digital creatives from around the world to build some amazing hacks. By joining you’ll get a chance to code and network with the best while learning from our API partners - all while having a great time.
+			<br/><br/>
+This year we’re mixing hardware and software, with some of our partners providing amazing technology to play around with. You’ll get access to some of the most cutting-edge products and services to make your ideas truly shine.
+		<br/><br/>
+Spotify, Twitter, Facebook, Deezer, Shutterstock, Dropbox and Microsoft are just some of our partners that made the Hack Battle happen over the last few years. A host of experts from our partners will be at hand to support you to build some awesome stuff.
+<br/><br/>
+Spots are limited, so sign up today for 36 hours of hacking, networking and fun. We’ll see you on the battlefield.
+<br/><br/>
+Hackathon runs from November 14 to 15, 2015.
+			]]></description>
+			<website>
+				http://thenextweb.com/conference/usa/hack-battle
+			</website>
+			<link>
+				https://tnw.typeform.com/to/cd6UaO
+			</link>
+	</opportunity>
+	<opportunity title="def Hacks()" posted="15 Oct 15" logo="images/resources/defHacks.jpg">
+		<description ><![CDATA[
+			Are you a high school student who wants to test their coding skills? Want to show off what you know? Want to learn, code, and have the chance to get free swag and maybe win an award?
+Come to def hacks()! We have cookies :)
+			<br/><br/>
+def Hacks() a hackathon meant only for high school students founded by high school students. We want to give everyone the opportunity to test their coding skills and develop new ones, while also getting the chance to eat, network, and get free swag.
+		<br/><br/>
+We are open to hackers of all coding levels, whether you've never heard of a function or you've made millions off of apps in the App Store. We will provide mentors and workshops so that everyone can complete an application to submit.
+<br/><br/>Hackathon runs from October 24 12:00pm to October 25 1:00pm.  25 hours of coding goodness!
+			]]></description>
+			<website>
+				http://defhacks.xyz/
+			</website>
+			<link>
+				http://defhacks.xyz/
+			</link>
+	</opportunity>
+	<opportunity title="Appreneur Scholar Contest" posted="26 SEP 15" logo="images/resources/appreneur2015.jpg">
+		<description ><![CDATA[
+			All over the world high school, college, and graduate students have been masterfully creating apps that are on the cutting edge of today’s mobile technology. For the third year, the Kay Family Foundation is now seeking entries for the global Appreneur Scholar award, a scholarship competition designed to recognize the creative efforts of student “appreneurs.”
+			<br/><br/>
+			Two deserving apps creators will receive $5,000 to help them pursue their studies and refine their apps. Winners are recognized during the Mobile Apps Showdown and TransformingEDU Summit on January 8, 2016 at the International CES in Las Vegas. We encourage educators to help spread the word to any high school or college student “appreneurs” and ask them to enter this unique competition.
+			<br/><br/>
+			<b>Application Deadline:</b> November 15, 2015.
+			]]></description>
+			<website>
+				http://appreneurscholars.com
+			</website>
+			<link>
+				http://appreneurscholars.com/registration/
+			</link>
+	</opportunity>
+	<opportunity title="Code NOW" posted="26 SEP 15" logo="http://codenow.org/wp-content/themes/codenow/img/navbar/CN_header_logo.gif">
+		<description ><![CDATA[
+			What do Instagram, Snapchat and Twitter have in common? They were all created by people who knew how to code. Programming is a skill that gives you the ability to create and innovate. That’s what CodeNow is for! We introduce you to programming in a fun and interactive way.
+			<br/><br/>
+			Our workshops take place on the weekends at a local tech company. During the workshop you’ll get to build fun interactive games and learn from top software engineers. If accepted, we’ll ask you to complete some puzzles and other fun activities in preparation for the workshop. After completing the workshop you’ll have a better understanding of what programming is. It will not be easy, but you’ll definitely have fun and learn a lot along the way. And we’ll provide you with all the tools and resources to get you on your way to become a great programmer.			<br/>
+			<br/><b>Application Deadline:</b>  November 4, 2015
+			]]></description>
+			<website>
+				http://codenow.org/
+			</website>
+			<link>
+				http://codenow.org/get-involved/
+			</link>
+	</opportunity>
+	<opportunity title="EasyCTF" posted="26 SEP 15" logo="images/resources/EasyCTF2015.jpg">
+		<description ><![CDATA[
+		EasyCTF is an online computer security contest targeted at middle and high school students.
+		The contest consists of a series of challenges centered around a creative storyline where participants must
+		reverse engineer, break, hack, decrypt, or do whatever it takes to solve the challenge and capture the flag.
+		The challenges are all set up with the intent of being hacked, making it an excellent, legal way to get hands-on
+		experience.
+		<br/><br/>
+		EasyCTF 2015 is divided into 4 levels. Most challenges will fall into these levels, although some challenges may vary. Levels increase in difficulty, with level 4 being the highest. Each level will be unlocked when half of the challenges from the previous level have been solved.
+		<br/><br/>
+		From October 31 - November 7, 2015, teams of up to 5 students can compete for cash prizes and bragging rights!
+		]]></description>
+		<website>
+		http://www.easyctf.com/
+		</website>
+		<link>
+		http://www.easyctf.com/
+		</link>
+	</opportunity>
+	<opportunity title="ACM/CSTA Cutler-Bell Prize for High School Computing" posted="25 SEP 15" logo="images/resources/csta.jpg">
+		<description ><![CDATA[
+			The ACM/CSTA Cutler-Bell Prize in High School Computing recognizes talented high school students in computer science.
+			The intent of the program is to promote and encourage the field of computer science, as well as to empower young and
+			aspiring learners to pursue computing challenges outside of the traditional classroom environment.
+			<br/><br/>
+ 			The application process involves a Challenge that focuses on having the student develop an artifact that engages modern
+			computing technology and computer science. Judges will be looking for submissions that demonstrate ingenuity, complexity,
+			relevancy, originality, and a desire to further computer science as a discipline.
+			<br/><br/>
+			Four winners will be selected annually and each will be awarded a $10,000 prize and cost of travel to the annual
+			ACM/CSTA Cutler-Bell Prize in High School Computing Reception, where students will demonstrate their programs and discuss
+			their work. The prizes will be funded by a $1 million endowment established by David Cutler and Gordon Bell. The inaugural
+			awards will be announced in February 2016.
+			<br/><br/>
+			<b>Application Deadline:</b> January 1, 2016
+
+		]]></description>
+		<website>
+			http://www.csta.acm.org/Advocacy_Outreach/sub/Cutler-BellPrize.html
+		</website>
+		<link>
+			https://app.wizehive.com/appform/login/csta2015app
+		</link>
+	</opportunity>
+	<opportunity title="the itGirls Overnight Retreat" posted="26 SEP 15" logo="http://ischool.syr.edu/media/images/2014/3/itgirlslogo.png">
+		<description ><![CDATA[
+		Hosted at Syracuse University on Oct 11 - 12, 2015 in Upstate NY, the itGirls Overnight Retreat aims to expose high school women to the information science field of study. Each year, we invite about 100 high school juniors and seniors from across the nation just like YOU to come and learn more about technology, our school, and to meet other It Girls!
+		<br/><br/>
+		The It Girls Overnight Retreat is a two-day event loaded with fun! You will have a chance to experience a day in the life of an iSchool student, make new friends, interact with current It Girls at the iSchool who are on the verge of greatness, and network with industry leaders who are paving the way (and might one day want to hire you!). If YOU believe that you are an It Girl and would like to join us this year, applications are open now!
+		<br/><br/>
+		<b>Registration Deadline:</b> September 30, 2015
+		]]></description>
+		<website>
+			http://ischool.syr.edu/academics/special-initiatives/women-in-it/the-it-girls/the-it-girls-for-high-school-girls/
+		</website>
+		<link>
+			http://ischool.syr.edu/academics/special-initiatives/women-in-it/the-it-girls/the-it-girls-application/
+		</link>
+	</opportunity>
 	<opportunity title="BREAK" posted="2014 - 2015"></opportunity>
 	<opportunity title="C4Q: Internship Opportunities for Summer 2015" posted="30 APR 15" logo="http://static1.squarespace.com/static/528cfee3e4b0c3afb632d2fc/t/5482537ae4b0b30bd821d649/1429573811965/?format=1500w">
 		<description ><![CDATA[

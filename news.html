@@ -10,6 +10,15 @@
 			#resourcesDiv .logo{float:left; border-radius:10px;box-shadow:10px 10px 10px black;margin:10px}
 			.highlighted {border-radius:10px;box-shadow:10px 10px 10px #FF8000 !important;}
 			#resourcesDiv .flink{height:20px;}
+      .Student{
+        border-left:10px solid green;
+      }
+      .Program{
+        border-left:10px solid blue;
+      }
+      .General{
+        border-left:10px solid yellow;
+      }
         </style>
 
 		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
@@ -24,16 +33,17 @@
 <body style="background-color:#222">
   <script id="news-template" type="text/template">
     <div class='news'>
-    <div class="content title">{{title}}</div>
+    <div class="content title {{category}}">{{title}}</div>
     <div class="content">{{content}}</div>
     <div class="content posted">Posted: {{posted}}</div>
     </div>
   </script>
 <script type="text/javascript">
-      var myDataRef = new Firebase('https://bhsctenews.firebaseio.com/');
-      var test;
+      var myDataRef;
 			$(document).ready(function(){
 				$("#menu").html(myMenu(2));
+
+        myDataRef = new Firebase('https://bhsctenews.firebaseio.com/');
         myDataRef.on('value', function(snapshot) {
           var build = new Array("");
           var tpl = $("#news-template").html();
@@ -59,11 +69,25 @@
                   <div id="resourcesDiv">
 
                   </div>
-                  <div style="color:#999;padding:5px;">Copyright &copy; 2013 Bayside High School Computer Programming CTE.  All rights reserved.</div>
+                  <div style="color:#666;padding:5px;">Copyright &copy; 2013 Bayside High School Computer Programming CTE.  All rights reserved.</div>
             </div>
 		</div>
 
     </div>
+    <script>
+    function stuff(){
+        myDataRef.authWithOAuthPopup("google",function(err, authData){
+                if(err)
+                  console.log("Login Failed",err);
+                else {
+                  console.log(authData);
+                }
+        })
+
+    }
+    </script>
+    <button onclick="stuff()">crap</button>
+    <button onclick="myDataRef.unauth()">bye</button>
     </center>
 
 
